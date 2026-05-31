@@ -1,5 +1,8 @@
 import { Filter, Search, X } from 'lucide-react';
 
+const fieldClass =
+  'w-full px-3 py-3 sm:py-2 rounded-lg bg-tml-card border border-tml-border text-base sm:text-sm focus:outline-none focus:border-tml-purple touch-manipulation';
+
 export default function Filters({
   stages,
   genres,
@@ -15,13 +18,14 @@ export default function Filters({
   const hasFilters = stageFilter || genreFilter || search;
 
   return (
-    <div className="flex flex-wrap gap-3 items-end p-4 rounded-xl bg-tml-card/50 border border-tml-border">
-      <div className="flex items-center gap-2 text-white/60 w-full sm:w-auto mb-1 sm:mb-0">
-        <Filter className="w-4 h-4" />
+    <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-end p-4 rounded-xl bg-tml-card/50 border border-tml-border">
+      <div className="flex items-center gap-2 text-white/60 sm:mr-1">
+        <Filter className="w-4 h-4 shrink-0" />
         <span className="text-sm font-medium">Filter</span>
       </div>
-      <div className="flex-1 min-w-[180px]">
-        <label className="block text-xs text-white/50 mb-1">
+
+      <div className="w-full sm:flex-1 sm:min-w-[200px]">
+        <label className="block text-xs text-white/50 mb-1.5">
           Search {isSearchPending && <span className="text-tml-purple/70">(filtering…)</span>}
         </label>
         <div className="relative">
@@ -30,18 +34,20 @@ export default function Filters({
             type="search"
             value={search}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder="DJ, stage, genre — searches all 3 days…"
+            placeholder="DJ, stage, genre…"
             autoComplete="off"
-            className="w-full pl-9 pr-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm focus:outline-none focus:border-tml-purple"
+            enterKeyHint="search"
+            className={`${fieldClass} pl-9 pr-3`}
           />
         </div>
       </div>
-      <div className="min-w-[160px]">
-        <label className="block text-xs text-white/50 mb-1">Stage</label>
+
+      <div className="w-full sm:w-auto sm:min-w-[160px] sm:flex-1">
+        <label className="block text-xs text-white/50 mb-1.5">Stage</label>
         <select
           value={stageFilter}
           onChange={(e) => onStageChange(e.target.value)}
-          className="w-full px-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm focus:outline-none focus:border-tml-purple"
+          className={fieldClass}
         >
           <option value="">All stages</option>
           {stages.map((s) => (
@@ -51,12 +57,13 @@ export default function Filters({
           ))}
         </select>
       </div>
-      <div className="min-w-[160px]">
-        <label className="block text-xs text-white/50 mb-1">Genre</label>
+
+      <div className="w-full sm:w-auto sm:min-w-[180px] sm:max-w-[280px] sm:flex-1">
+        <label className="block text-xs text-white/50 mb-1.5">Genre</label>
         <select
           value={genreFilter}
           onChange={(e) => onGenreChange(e.target.value)}
-          className="w-full px-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm focus:outline-none focus:border-tml-purple"
+          className={fieldClass}
         >
           <option value="">All genres</option>
           {genres.map((g) => (
@@ -66,11 +73,12 @@ export default function Filters({
           ))}
         </select>
       </div>
+
       {hasFilters && (
         <button
           type="button"
           onClick={onReset}
-          className="flex items-center gap-1 px-3 py-2 text-sm text-white/60 hover:text-white"
+          className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-4 py-3 min-h-[44px] text-sm text-white/70 active:text-white border border-tml-border sm:border-transparent rounded-lg sm:rounded-none touch-manipulation"
         >
           <X className="w-4 h-4" />
           Reset filters

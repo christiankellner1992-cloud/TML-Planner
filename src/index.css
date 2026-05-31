@@ -9,8 +9,31 @@
   --color-tml-border: #2a2040;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  @apply bg-tml-dark text-white font-sans antialiased min-h-screen;
+  @apply bg-tml-dark text-white font-sans antialiased min-h-screen overflow-x-hidden;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* iOS: 16px+ inputs avoid auto-zoom on focus */
+@media (max-width: 639px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
 
 ::-webkit-scrollbar {

@@ -5,8 +5,9 @@
     "scrapedAt": "2026-05-31T13:50:31.869Z",
     "source": "https://belgium.tomorrowland.com/en/line-up/",
     "totalActs": 356,
-    "genresUpdatedAt": "2026-05-31T14:14:25.033Z",
-    "genreFormat": "array"
+    "genresUpdatedAt": "2026-05-31T14:40:00.035Z",
+    "genreFormat": "array",
+    "genreSource": "manual-csv-import"
   },
   "days": {
     "friday": {
@@ -23,7 +24,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Tech House"
           ]
         },
         {
@@ -35,7 +37,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Hard Techno",
+            "Techno"
           ]
         },
         {
@@ -47,8 +50,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle",
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Hardstyle"
           ]
         },
         {
@@ -60,8 +63,9 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno",
+            "Psytrance",
+            "Techno"
           ]
         },
         {
@@ -74,7 +78,7 @@
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
             "Melodic Techno",
-            "Techno"
+            "House"
           ]
         },
         {
@@ -86,8 +90,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Electronic"
           ]
         },
         {
@@ -99,7 +102,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Melodic Techno",
+            "Progressive House"
           ]
         },
         {
@@ -111,7 +115,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -123,8 +128,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room",
-            "Melodic Techno"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -136,7 +141,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Big Room / EDM",
+            "Progressive House"
           ]
         },
         {
@@ -148,7 +154,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno",
+            "Trance",
             "Techno"
           ]
         },
@@ -161,7 +167,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -173,8 +180,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -198,7 +204,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Tech House",
+            "House"
           ]
         },
         {
@@ -210,8 +217,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Tech House"
           ]
         },
         {
@@ -235,7 +241,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -259,8 +265,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass",
-            "EDM/Big Room"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -284,7 +289,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -296,8 +301,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno",
-            "Tech House"
+            "Drum & Bass"
           ]
         },
         {
@@ -309,7 +313,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -333,7 +337,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Tech House",
+            "Dance-Pop"
           ]
         },
         {
@@ -345,7 +350,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass"
+            "Dubstep / Bass",
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -369,8 +375,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass",
-            "EDM/Big Room"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -382,7 +387,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Trap / Hip-Hop",
+            "Dance-Pop"
           ]
         },
         {
@@ -394,7 +400,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno"
+            "Afro House",
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -418,7 +425,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -454,7 +461,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -478,7 +485,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -526,7 +533,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Hardstyle",
+            "Retro / Classics"
           ]
         },
         {
@@ -538,8 +546,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle",
-            "Techno"
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -563,7 +570,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -575,8 +582,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno",
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -588,7 +595,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -600,7 +607,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -612,8 +619,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Dance-Pop",
+            "Tech House"
           ]
         },
         {
@@ -625,7 +632,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -649,8 +656,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -662,7 +668,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Techno",
+            "Deep House"
           ]
         },
         {
@@ -686,8 +693,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Dance-Pop"
           ]
         },
         {
@@ -711,7 +718,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Trance"
           ]
         },
         {
@@ -747,8 +754,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Psytrance",
-            "Hardstyle"
+            "Psytrance"
           ]
         },
         {
@@ -760,7 +766,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Psytrance"
           ]
         },
         {
@@ -808,8 +814,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Psytrance"
           ]
         },
         {
@@ -845,7 +850,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Psytrance"
           ]
         },
         {
@@ -881,7 +886,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Indie Dance",
+            "House"
           ]
         },
         {
@@ -905,6 +911,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
+            "House",
             "Deep House"
           ]
         },
@@ -929,8 +936,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -942,7 +948,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "House",
+            "Dance-Pop"
           ]
         },
         {
@@ -966,7 +973,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "House"
           ]
         },
         {
@@ -978,8 +985,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Tech House"
+            "Tech House",
+            "Deep House"
           ]
         },
         {
@@ -1003,8 +1010,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -1028,7 +1034,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Hard Techno",
+            "Techno"
           ]
         },
         {
@@ -1040,8 +1047,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1053,7 +1060,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -1066,7 +1073,7 @@
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
             "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -1078,7 +1085,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -1090,8 +1097,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Psytrance",
-            "Drum & Bass"
+            "Psytrance"
           ]
         },
         {
@@ -1103,8 +1109,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Deep House",
-            "Techno"
+            "House",
+            "Deep House"
           ]
         },
         {
@@ -1128,8 +1134,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -1141,7 +1146,6 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Deep House",
             "Melodic Techno"
           ]
         },
@@ -1154,8 +1158,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "Deep House"
+            "House",
+            "Techno"
           ]
         },
         {
@@ -1167,7 +1171,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "House",
+            "Deep House"
           ]
         },
         {
@@ -1179,8 +1184,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno",
-            "EDM/Big Room"
+            "Indie Dance",
+            "Dance-Pop"
           ]
         },
         {
@@ -1192,7 +1197,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Hardstyle"
+            "Afro House",
+            "Deep House"
           ]
         },
         {
@@ -1217,7 +1223,7 @@
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
             "Tech House",
-            "Deep House"
+            "House"
           ]
         },
         {
@@ -1229,7 +1235,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
+            "Afro House",
             "Deep House"
           ]
         },
@@ -1242,7 +1248,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno",
+            "Afro House",
             "Deep House"
           ]
         },
@@ -1256,7 +1262,7 @@
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
             "Melodic Techno",
-            "Deep House"
+            "Indie Dance"
           ]
         },
         {
@@ -1268,7 +1274,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Melodic Techno"
+            "Tech House"
           ]
         },
         {
@@ -1280,7 +1286,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Drum & Bass"
+            "Afro House",
+            "Deep House"
           ]
         },
         {
@@ -1292,8 +1299,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1305,7 +1312,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1317,7 +1325,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House"
+            "Tech House",
+            "House"
           ]
         },
         {
@@ -1341,7 +1350,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dubstep / Bass"
           ]
         },
         {
@@ -1353,8 +1362,9 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Deep House",
-            "EDM/Big Room"
+            "House",
+            "Progressive House",
+            "Deep House"
           ]
         },
         {
@@ -1366,8 +1376,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hardstyle"
           ]
         },
         {
@@ -1415,8 +1424,9 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Deep House",
-            "Tech House"
+            "Trap / Hip-Hop",
+            "Hardstyle",
+            "Dance-Pop"
           ]
         },
         {
@@ -1428,8 +1438,9 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Big Room / EDM",
+            "Hardstyle"
           ]
         },
         {
@@ -1477,8 +1488,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -1502,7 +1512,8 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Progressive House"
           ]
         },
         {
@@ -1526,8 +1537,7 @@
           "date": "2026-07-24",
           "dayLabel": "Freitag, 24. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Tech House"
           ]
         }
       ]
@@ -1546,8 +1556,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "EDM/Big Room"
+            "Melodic Techno"
           ]
         },
         {
@@ -1559,8 +1568,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -1572,7 +1580,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Trance",
+            "Progressive House"
           ]
         },
         {
@@ -1584,8 +1593,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room",
-            "Deep House"
+            "Dance-Pop",
+            "Progressive House"
           ]
         },
         {
@@ -1597,7 +1606,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Progressive House"
           ]
         },
         {
@@ -1609,7 +1619,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "House"
           ]
         },
         {
@@ -1621,8 +1632,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -1634,8 +1644,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Electronic"
           ]
         },
         {
@@ -1647,7 +1656,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1659,8 +1669,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1697,7 +1707,7 @@
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
             "Melodic Techno",
-            "Techno"
+            "Indie Dance"
           ]
         },
         {
@@ -1721,8 +1731,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Melodic Techno"
           ]
         },
         {
@@ -1734,7 +1743,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "House",
+            "Tech House"
           ]
         },
         {
@@ -1758,8 +1768,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room",
-            "Melodic Techno"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -1771,7 +1781,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Electronic"
           ]
         },
         {
@@ -1783,7 +1793,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Hardstyle"
           ]
         },
         {
@@ -1795,7 +1806,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Retro / Classics",
+            "Hardcore / Uptempo"
           ]
         },
         {
@@ -1807,8 +1819,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1820,7 +1832,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1832,7 +1845,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1844,7 +1858,9 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House"
+            "Retro / Classics",
+            "Hardcore / Uptempo",
+            "Hardstyle"
           ]
         },
         {
@@ -1856,7 +1872,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1880,7 +1897,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -1892,7 +1909,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1904,7 +1922,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -1916,8 +1935,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -1977,7 +1995,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -2061,7 +2079,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno",
+            "House"
           ]
         },
         {
@@ -2085,7 +2104,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -2097,8 +2116,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -2134,7 +2152,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Hardstyle"
           ]
         },
         {
@@ -2194,8 +2213,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -2207,7 +2225,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Hardstyle"
+            "Retro / Classics",
+            "Trance"
           ]
         },
         {
@@ -2316,8 +2335,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Deep House",
+            "Melodic Techno"
           ]
         },
         {
@@ -2341,8 +2360,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "House"
           ]
         },
         {
@@ -2414,7 +2432,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House"
           ]
         },
         {
@@ -2426,8 +2444,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "House",
+            "Tech House"
           ]
         },
         {
@@ -2439,7 +2457,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -2451,7 +2470,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -2463,8 +2483,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "Deep House"
+            "House"
           ]
         },
         {
@@ -2500,7 +2519,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Trance",
+            "House"
           ]
         },
         {
@@ -2512,8 +2532,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -2561,8 +2581,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -2598,7 +2617,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Hard Techno"
           ]
         },
         {
@@ -2610,7 +2629,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno",
+            "Trance"
           ]
         },
         {
@@ -2622,8 +2642,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Techno",
+            "House"
           ]
         },
         {
@@ -2635,8 +2655,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Deep House"
+            "House",
+            "Techno"
           ]
         },
         {
@@ -2648,7 +2668,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno"
+            "House",
+            "Deep House"
           ]
         },
         {
@@ -2672,8 +2693,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Tech House",
+            "House"
           ]
         },
         {
@@ -2685,8 +2706,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Tech House"
+            "Techno"
           ]
         },
         {
@@ -2698,7 +2718,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House"
+            "Tech House",
+            "House"
           ]
         },
         {
@@ -2710,8 +2731,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "Deep House"
+            "House"
           ]
         },
         {
@@ -2747,8 +2767,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "Deep House"
+            "Tech House"
           ]
         },
         {
@@ -2773,7 +2792,7 @@
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
             "Tech House",
-            "Deep House"
+            "House"
           ]
         },
         {
@@ -2785,7 +2804,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop",
+            "House"
           ]
         },
         {
@@ -2798,7 +2818,7 @@
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
             "Deep House",
-            "EDM/Big Room"
+            "Dance-Pop"
           ]
         },
         {
@@ -2810,8 +2830,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Hardstyle",
-            "EDM/Big Room"
+            "Hardstyle"
           ]
         },
         {
@@ -2823,7 +2842,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House"
           ]
         },
         {
@@ -2859,8 +2878,8 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Tech House",
-            "Deep House"
+            "House",
+            "Tech House"
           ]
         },
         {
@@ -2884,8 +2903,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Deep House",
-            "Melodic Techno"
+            "Deep House"
           ]
         },
         {
@@ -2909,8 +2927,7 @@
           "date": "2026-07-25",
           "dayLabel": "Samstag, 25. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -2977,7 +2994,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "House"
           ]
         },
         {
@@ -2989,7 +3007,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Drum & Bass"
+            "Drum & Bass",
+            "Dubstep / Bass"
           ]
         },
         {
@@ -3001,7 +3020,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Deep House"
           ]
         },
         {
@@ -3014,7 +3034,7 @@
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
             "Deep House",
-            "EDM/Big Room"
+            "Dance-Pop"
           ]
         },
         {
@@ -3026,7 +3046,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Progressive House"
           ]
         },
         {
@@ -3038,7 +3059,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3050,8 +3072,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Electronic"
           ]
         },
         {
@@ -3075,8 +3096,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -3088,7 +3108,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Trap / Hip-Hop"
           ]
         },
         {
@@ -3101,7 +3122,7 @@
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
             "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -3113,8 +3134,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Melodic Techno"
           ]
         },
         {
@@ -3138,8 +3158,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Melodic Techno"
           ]
         },
         {
@@ -3151,7 +3170,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno"
+            "Melodic Techno",
+            "Progressive House"
           ]
         },
         {
@@ -3211,8 +3231,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hardstyle"
           ]
         },
         {
@@ -3248,7 +3267,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hardstyle"
           ]
         },
         {
@@ -3368,7 +3387,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -3392,7 +3411,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno"
+            "Trap / Hip-Hop",
+            "Dance-Pop"
           ]
         },
         {
@@ -3428,7 +3448,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3452,8 +3473,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -3465,7 +3485,6 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
             "Techno"
           ]
         },
@@ -3478,8 +3497,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -3503,7 +3521,6 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
             "Techno"
           ]
         },
@@ -3528,7 +3545,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Tech House"
           ]
         },
         {
@@ -3564,7 +3582,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -3612,7 +3630,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House"
           ]
         },
         {
@@ -3624,7 +3642,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3636,8 +3655,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "House"
           ]
         },
         {
@@ -3673,7 +3691,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "House"
           ]
         },
         {
@@ -3685,8 +3704,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Tech House",
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3698,7 +3717,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -3710,7 +3729,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3722,8 +3742,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Hardstyle",
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -3735,8 +3755,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
-            "Deep House"
+            "Tech House",
+            "House"
           ]
         },
         {
@@ -3748,7 +3768,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -3772,7 +3792,6 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Deep House",
             "Melodic Techno"
           ]
         },
@@ -3929,7 +3948,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -3942,8 +3961,7 @@
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
             "Techno",
-            "Peak Time Techno",
-            "Melodic Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -3955,8 +3973,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -4004,8 +4021,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Techno"
           ]
         },
         {
@@ -4017,8 +4033,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno",
+            "Trance"
           ]
         },
         {
@@ -4030,8 +4046,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
-            "Deep House"
+            "House",
+            "Techno"
           ]
         },
         {
@@ -4043,7 +4059,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -4091,7 +4107,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Tech House"
+            "Trance",
+            "Hard Techno"
           ]
         },
         {
@@ -4115,8 +4132,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Tech House",
-            "Deep House"
+            "Tech House"
           ]
         },
         {
@@ -4153,7 +4169,7 @@
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
             "Melodic Techno",
-            "Techno"
+            "Tech House"
           ]
         },
         {
@@ -4165,7 +4181,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -4177,8 +4193,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno",
-            "Techno"
+            "Melodic Techno"
           ]
         },
         {
@@ -4190,7 +4205,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -4214,6 +4229,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
+            "Hardcore / Uptempo",
             "Hardstyle"
           ]
         },
@@ -4226,7 +4242,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Psytrance"
           ]
         },
         {
@@ -4238,7 +4255,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Progressive House",
+            "Big Room / EDM"
           ]
         },
         {
@@ -4262,7 +4280,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM",
+            "Progressive House"
           ]
         },
         {
@@ -4274,8 +4293,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Techno",
-            "Peak Time Techno"
+            "Hard Techno"
           ]
         },
         {
@@ -4287,7 +4305,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Dance-Pop"
           ]
         },
         {
@@ -4335,7 +4353,7 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "EDM/Big Room"
+            "Big Room / EDM"
           ]
         },
         {
@@ -4347,7 +4365,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Hardstyle"
+            "Retro / Classics",
+            "Dance-Pop"
           ]
         },
         {
@@ -4395,7 +4414,8 @@
           "date": "2026-07-26",
           "dayLabel": "Sonntag, 26. Juli",
           "genre": [
-            "Melodic Techno"
+            "Big Room / EDM",
+            "House"
           ]
         }
       ]
@@ -4419,14 +4439,25 @@
     "THE ROSE GARDEN"
   ],
   "genres": [
+    "Afro House",
+    "Big Room / EDM",
+    "Dance-Pop",
     "Deep House",
     "Drum & Bass",
-    "EDM/Big Room",
+    "Dubstep / Bass",
+    "Electronic",
+    "Hard Techno",
+    "Hardcore / Uptempo",
     "Hardstyle",
+    "House",
+    "Indie Dance",
     "Melodic Techno",
-    "Peak Time Techno",
+    "Progressive House",
     "Psytrance",
+    "Retro / Classics",
     "Tech House",
-    "Techno"
+    "Techno",
+    "Trance",
+    "Trap / Hip-Hop"
   ]
 }

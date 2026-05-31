@@ -1,0 +1,3324 @@
+{
+  "meta": {
+    "purpose": "Genre review – edit only the genres field per artist; keep id unchanged",
+    "festival": "Tomorrowland Belgium 2026 Week 2",
+    "totalArtists": 356,
+    "allowedGenres": [
+      "Melodic Techno",
+      "Techno",
+      "Peak Time Techno",
+      "Hardstyle",
+      "Tech House",
+      "Deep House",
+      "EDM/Big Room",
+      "Drum & Bass",
+      "Psytrance"
+    ],
+    "genreFormat": "array of strings, e.g. [\"Melodic Techno\", \"Techno\"]",
+    "reimportCommand": "node importGenresFromReview.js"
+  },
+  "artists": [
+    {
+      "id": "friday--atmosphere--azyr",
+      "name": "Azyr",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--boy-girl",
+      "name": "BOY&GIRL",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--callush",
+      "name": "Callush",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--dyen-b2b-maddix",
+      "name": "Dyen b2b Maddix",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--holy-priest",
+      "name": "Holy Priest",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--mha-iri",
+      "name": "Mha Iri",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--onlynumbers",
+      "name": "Onlynumbers",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--atmosphere--skeletor-yogi",
+      "name": "Skeletor Yogi",
+      "day": "friday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Psytrance",
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--cage--bazzy",
+      "name": "BAZZY",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--cage--dj-furax",
+      "name": "DJ FURAX",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--cage--drs-b2b-sandy-warez",
+      "name": "DRS b2b SANDY WAREZ",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle",
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--cage--imhappy",
+      "name": "IMHAPPY",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--cage--lekkerfaces",
+      "name": "LEKKERFACES",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--cage--natte-visstick",
+      "name": "NATTE VISSTICK",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--cage--partyraiser-b2b-bulletproof",
+      "name": "PARTYRAISER b2b BULLETPROOF",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--cage--terrorclown",
+      "name": "TERRORCLOWN",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--cage--todiefor",
+      "name": "TODIEFOR",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--cage--toxic-twins",
+      "name": "TOXIC TWINS",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--cage--yoshiko",
+      "name": "YOSHIKO",
+      "day": "friday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--aat",
+      "name": "AAT",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--belters-only",
+      "name": "Belters Only",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--gissa",
+      "name": "Gissa",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--mr-belt-wezol",
+      "name": "Mr. Belt & Wezol",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--ruze-b2b-ranger-trucco",
+      "name": "Ruze b2b Ranger Trucco",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Techno",
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--celestia-by-kucoin--saar-kuus",
+      "name": "Saar Kuus",
+      "day": "friday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--core--bibi-seck-b2b-faisal",
+      "name": "Bibi Seck b2b Faisal",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Deep House",
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--core--bullet-tooth",
+      "name": "Bullet Tooth",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--core--fais-le-beau-b2b-sixsixsixties",
+      "name": "Fais Le Beau b2b Sixsixsixties",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--core--kamma",
+      "name": "Kamma",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Deep House",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--core--mall-grab",
+      "name": "Mall Grab",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--core--ogazon",
+      "name": "Ogazón",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--core--oscar-and-the-wolf",
+      "name": "Oscar and the Wolf",
+      "day": "friday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--capoon",
+      "name": "Capoon",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--deco",
+      "name": "Deco",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--hugel",
+      "name": "Hugel",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--joezi",
+      "name": "Joezi",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--kitty-amor-b2b-curol",
+      "name": "Kitty Amor b2b Curol",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--mahmut-orhan",
+      "name": "Mahmut Orhan",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--malive",
+      "name": "Malive",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--crystal-garden--shimza",
+      "name": "Shimza",
+      "day": "friday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--elixir--hirak",
+      "name": "$hirak",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--elixir--brooke-bailey-b2b-taliyah-ayana",
+      "name": "Brooke Bailey b2b Taliyah Ayana",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--cham-b2b-uneak",
+      "name": "Cham b2b Uneak",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--dany-neville",
+      "name": "Dany Neville",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--elixir--flash",
+      "name": "Flash",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--elixir--iris-rooth",
+      "name": "Iris Rooth",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--irwan",
+      "name": "Irwan",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--miro",
+      "name": "Miro",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--nems",
+      "name": "Nems",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--rosh",
+      "name": "Rosh",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--elixir--valentino-ignoto",
+      "name": "Valentino Ignoto",
+      "day": "friday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--aaron-hibell",
+      "name": "Aaron Hibell",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--alesso",
+      "name": "Alesso",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--amber-broos-b2b-juliet-fox",
+      "name": "Amber Broos b2b Juliet Fox",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--esin-boz",
+      "name": "Esin Boz",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--fisher",
+      "name": "Fisher",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--james-hype",
+      "name": "James Hype",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--freedom-by-bud--joa",
+      "name": "JOA",
+      "day": "friday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--house-of-fortune-by-jbl--alan-alvarez-crazy-sir-g",
+      "name": "Alan Alvarez & CRAZY SIR-G",
+      "day": "friday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--house-of-fortune-by-jbl--elfigo",
+      "name": "ELFIGO",
+      "day": "friday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--house-of-fortune-by-jbl--martin-trevy",
+      "name": "Martin Trevy",
+      "day": "friday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--house-of-fortune-by-jbl--reygel",
+      "name": "Reygel",
+      "day": "friday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--house-of-fortune-by-jbl--vinne",
+      "name": "Vinne",
+      "day": "friday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--alok",
+      "name": "Alok",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--ely-oaks",
+      "name": "Ely Oaks",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--hardwell",
+      "name": "Hardwell",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Hardstyle",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--indira-paganotto",
+      "name": "Indira Paganotto",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--mainstage--kolsch",
+      "name": "Kölsch",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--mainstage--mc-stretch",
+      "name": "MC STRETCH",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--miss-monique",
+      "name": "Miss Monique",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--mainstage--nicky-romero",
+      "name": "Nicky Romero",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--mainstage--steve-angello",
+      "name": "Steve Angello",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--mainstage--yves-v",
+      "name": "Yves V",
+      "day": "friday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--melodia-by-corona--jeroen-delodder",
+      "name": "Jeroen Delodder",
+      "day": "friday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--melodia-by-corona--john-noseda",
+      "name": "John Noseda",
+      "day": "friday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--melodia-by-corona--joulie",
+      "name": "Joulie",
+      "day": "friday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--melodia-by-corona--planet-groove-dj-s",
+      "name": "Planet Groove DJ's",
+      "day": "friday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Deep House"
+      ]
+    },
+    {
+      "id": "friday--melodia-by-corona--spies",
+      "name": "SPIES",
+      "day": "friday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--moose-bar--jo-cox",
+      "name": "Jo Cox",
+      "day": "friday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--moose-bar--prosit",
+      "name": "Prosit",
+      "day": "friday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--moose-bar--the-bobmeister",
+      "name": "The Bobmeister",
+      "day": "friday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--planaxis--avalon",
+      "name": "Avalon",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "friday--planaxis--beat-controllers",
+      "name": "Beat Controllers",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--planaxis--blastoyz",
+      "name": "Blastoyz",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance",
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--planaxis--blazy",
+      "name": "Blazy",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--planaxis--domi-re",
+      "name": "Domi Re",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--planaxis--electric-universe",
+      "name": "Electric Universe",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "friday--planaxis--firaga",
+      "name": "Firaga",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "friday--planaxis--locus",
+      "name": "Locus",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "friday--planaxis--phaxe",
+      "name": "Phaxe",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "friday--planaxis--somnia",
+      "name": "Somnia",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "friday--planaxis--vegas",
+      "name": "Vegas",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--planaxis--vitor-falabella",
+      "name": "Vitor Falabella",
+      "day": "friday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--5napback",
+      "name": "5NAPBACK",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--alan-walker",
+      "name": "Alan Walker",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--b-jones",
+      "name": "B Jones",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--halo",
+      "name": "HALŌ",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--illenium",
+      "name": "Illenium",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--kaskade",
+      "name": "Kaskade",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Deep House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--mandy",
+      "name": "MANDY",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--meaghan",
+      "name": "Meaghan",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--merow",
+      "name": "Merow",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--nome",
+      "name": "NOME.",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--omdat-het-kan-average-rob",
+      "name": "Omdat Het Kan & Average Rob",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Deep House",
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-great-library--regi",
+      "name": "Regi",
+      "day": "friday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--bisoux-b2b-jef-nice",
+      "name": "Bisoux b2b Jef Nice",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--leesa",
+      "name": "Leesa",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--lou8",
+      "name": "Lou8",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--mairee",
+      "name": "Mairee",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--mr-joy",
+      "name": "Mr. Joy",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-rave-cave--xijaro-pitch",
+      "name": "Xijaro & Pitch",
+      "day": "friday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--alleycvt",
+      "name": "ALLEYCVT",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--basstripper",
+      "name": "Basstripper",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--borgore",
+      "name": "Borgore",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--bou-b-live-247",
+      "name": "BOU + B LIVE 247",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--ghengar",
+      "name": "Ghengar",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--goddard",
+      "name": "Goddard",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--jessica-audiffred",
+      "name": "Jessica Audiffred",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--licia",
+      "name": "LICIA",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--lucky-luke",
+      "name": "Lucky Luke",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--riot-ten",
+      "name": "Riot Ten",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--shawiya-tribe",
+      "name": "Shawiya Tribe",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "friday--the-rose-garden--sullivan-king",
+      "name": "Sullivan King",
+      "day": "friday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Drum & Bass",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--2hot2play",
+      "name": "2hot2play",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--emilija-b2b-fenrick",
+      "name": "EMILIJA b2b Fenrick",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--i-hate-models",
+      "name": "I Hate Models",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--kneiz",
+      "name": "Kneiz",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--noise-mafia",
+      "name": "Noise Mafia",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--novah",
+      "name": "Novah",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--atmosphere--pegassi",
+      "name": "Pegassi",
+      "day": "saturday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--iosio",
+      "name": "IOSIO",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--macon",
+      "name": "Macon",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--mero-b2b-daire",
+      "name": "Mero b2b Daire",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--cage--mondello",
+      "name": "Mondello",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--niotech",
+      "name": "Niotech",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--rune-evens",
+      "name": "Rune Evens",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--cage--stanne",
+      "name": "Stanne",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--cage--uberjak-d-feat-ella-young",
+      "name": "Uberjak'd feat Ella Young",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--cage--x-trick",
+      "name": "X&Trick",
+      "day": "saturday",
+      "stage": "CAGE",
+      "genres": [
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--bingo-players-with-iceman",
+      "name": "Bingo Players with Iceman",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--chocolate-puma",
+      "name": "Chocolate Puma",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--dada-life",
+      "name": "Dada Life",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--dannic-b2b-dyro",
+      "name": "Dannic b2b Dyro",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--gregor-salto",
+      "name": "Gregor Salto",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--lny-tnz-jump-never-dies-take-over",
+      "name": "LNY TNZ: Jump Never Dies (Take-Over)",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--odssey",
+      "name": "Odssey",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--sander-van-doorn",
+      "name": "Sander van doorn",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--swanky-tunes",
+      "name": "Swanky Tunes",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--celestia-by-kucoin--yamo",
+      "name": "Yamo",
+      "day": "saturday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--core--dino-lenny-b2b-radioslave",
+      "name": "Dino Lenny b2b Radioslave",
+      "day": "saturday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "saturday--core--haai-b2b-the-blessed-madonna",
+      "name": "HAAi b2b The Blessed Madonna",
+      "day": "saturday",
+      "stage": "CORE",
+      "genres": [
+        "Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--core--shee",
+      "name": "SHEE",
+      "day": "saturday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--ayybo-b2b-odd-mob",
+      "name": "Ayybo b2b Odd Mob",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--guz",
+      "name": "GUZ",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--hi-lo-b2b-layton-giordani",
+      "name": "HI-LO b2b Layton Giordani",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Techno",
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--john-summit",
+      "name": "John Summit",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--lp-giobbi",
+      "name": "LP Giobbi",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--max-styler",
+      "name": "Max Styler",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--naomi-cazier",
+      "name": "Naomi Cazier",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--crystal-garden--roddy-lima",
+      "name": "Roddy Lima",
+      "day": "saturday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--elixir--annabel-stop-it",
+      "name": "Annabel Stop It",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--butterfly-effect",
+      "name": "Butterfly Effect",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--elixir--dj-art",
+      "name": "DJ ART",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--elixir--eimco",
+      "name": "Eimco",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--knox-kind",
+      "name": "Knox Kind",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--elixir--lady-s",
+      "name": "Lady S",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--nina-black",
+      "name": "Nina Black",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--noa",
+      "name": "NOA",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--ruby-xx",
+      "name": "RUBY XX",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--sandersville",
+      "name": "Sandersville",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--elixir--shoarma-soundsystem",
+      "name": "⁠⁠SHOARMA SOUNDSYSTEM",
+      "day": "saturday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--andromedik",
+      "name": "Andromedik",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--argy",
+      "name": "Argy",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--calao",
+      "name": "Calao",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--massano",
+      "name": "Massano",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--mosimann-b2b-elfigo",
+      "name": "Mosimann b2b ELFIGO",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--romy-janssen",
+      "name": "Romy Janssen",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--sebastian-ingrosso",
+      "name": "Sebastian Ingrosso",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "EDM/Big Room",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--symphony-of-unity",
+      "name": "Symphony Of Unity",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--freedom-by-bud--timmy-trumpet",
+      "name": "Timmy Trumpet",
+      "day": "saturday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--house-of-fortune-by-jbl--carly-wilford",
+      "name": "Carly Wilford",
+      "day": "saturday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--house-of-fortune-by-jbl--mosimann",
+      "name": "Mosimann",
+      "day": "saturday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--house-of-fortune-by-jbl--yaz",
+      "name": "Yaz.",
+      "day": "saturday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--agents-of-time",
+      "name": "Agents of Time",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Melodic Techno",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--angemi",
+      "name": "Angemi",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--armin-van-buuren",
+      "name": "Armin van Buuren",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--calvin-harris",
+      "name": "Calvin Harris",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--d-o-d",
+      "name": "D.O.D",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--dimitri-vegas-like-mike",
+      "name": "Dimitri Vegas & Like Mike",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--mattn",
+      "name": "MATTN",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--mc-stretch",
+      "name": "MC STRETCH",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--mike-williams",
+      "name": "Mike Williams",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--morten",
+      "name": "Morten",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--mainstage--sub-zero-project",
+      "name": "Sub Zero Project",
+      "day": "saturday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--emilia-de-la-paz",
+      "name": "Emilia De La Paz",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--geheimzinnig-soundsystem",
+      "name": "Geheimzinnig Soundsystem",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--larry-masmero",
+      "name": "Larry Masmero",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--mooris",
+      "name": "Mooris",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--sam-girling",
+      "name": "Sam Girling",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--sea",
+      "name": "Séa",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--melodia-by-corona--soulastico-b2b-tohma",
+      "name": "Soulastico b2b Tohma",
+      "day": "saturday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--moose-bar--kurt-verheyen",
+      "name": "Kurt Verheyen",
+      "day": "saturday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--moose-bar--mobius-one",
+      "name": "Mobius One",
+      "day": "saturday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--moose-bar--mr-e",
+      "name": "Mr E.",
+      "day": "saturday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--alicia-hahn",
+      "name": "Alicia Hahn",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--colyn-b2b-sainte-vie",
+      "name": "Colyn b2b Sainte Vie",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--dyzen",
+      "name": "Dyzen",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--na-tus",
+      "name": "NA:TUS",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--tim-bliss",
+      "name": "Tim Bliss",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--yet-more",
+      "name": "Yet More",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--planaxis--yulia-niko",
+      "name": "Yulia Niko",
+      "day": "saturday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--chris-lorenzo",
+      "name": "Chris Lorenzo",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--gorgon-city",
+      "name": "Gorgon City",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--henri-pfr",
+      "name": "Henri PFR",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--lost-frequencies",
+      "name": "Lost Frequencies",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Deep House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--me-n-u",
+      "name": "me n ü",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Hardstyle",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--mesto",
+      "name": "Mesto",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--netsky",
+      "name": "Netsky",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--radio-cargo",
+      "name": "Radio Cargo",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--sonny-fodera",
+      "name": "Sonny Fodera",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--wilkinson",
+      "name": "Wilkinson",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "saturday--the-great-library--zhu",
+      "name": "ZHU",
+      "day": "saturday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Deep House",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--flowchief",
+      "name": "Flowchief",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--jorn-pricez",
+      "name": "Jorn Pricez",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--justin-wilkes",
+      "name": "Justin Wilkes",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--netherworld",
+      "name": "Netherworld",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--pat-krimson",
+      "name": "Pat Krimson",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--roma",
+      "name": "Roma",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rave-cave--simon-b",
+      "name": "Simon B",
+      "day": "saturday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--bountyhunter",
+      "name": "BountyHunter",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--cherry-moon-legends-friends",
+      "name": "Cherry Moon Legends (& Friends)",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--danny-corten",
+      "name": "Danny Corten",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--dimitri-cooman",
+      "name": "Dimitri Cooman",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--dj-ghost",
+      "name": "DJ Ghost",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--franky-kloeck",
+      "name": "Franky Kloeck",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--jamie-dill",
+      "name": "Jamie Dill",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--maite-dedecker",
+      "name": "Maite Dedecker",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--quincy",
+      "name": "Quincy",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "saturday--the-rose-garden--youri-parker",
+      "name": "Youri Parker",
+      "day": "saturday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--adrian-mills",
+      "name": "Adrián Mills",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--alycia-bezgo-b2b-biianco",
+      "name": "Alycia Bezgo b2b Biianco",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--kobosil",
+      "name": "Kobosil",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--mirage",
+      "name": "Mirage",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--nikolina",
+      "name": "Nikolina",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--portex",
+      "name": "Portex",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--riana-holley",
+      "name": "Riana Holley",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--atmosphere--trym",
+      "name": "Trym",
+      "day": "sunday",
+      "stage": "ATMOSPHERE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--amalie",
+      "name": "Amalie",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--amotik",
+      "name": "Amotik",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--blasha-allatt",
+      "name": "Blasha & Allatt",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--freddy-k",
+      "name": "Freddy K",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--netty-hugo",
+      "name": "Netty Hugo",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--cage--quelza",
+      "name": "Quelza",
+      "day": "sunday",
+      "stage": "CAGE",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--bella-claxton-b2b-paige-tomlinson",
+      "name": "Bella Claxton b2b Paige Tomlinson",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--hu",
+      "name": "HU",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--kyle-starkey",
+      "name": "Kyle Starkey",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--lisa-korver",
+      "name": "Lisa Korver",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--mendosa",
+      "name": "Mendosa",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--morgan-seatree",
+      "name": "Morgan Seatree",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--celestia-by-kucoin--newtone",
+      "name": "Newtone",
+      "day": "sunday",
+      "stage": "CELESTIA BY KUCOIN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--core--benwal-b2b-labat",
+      "name": "Benwal b2b Labat",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "sunday--core--catalina",
+      "name": "Catalina",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--core--helena-lauwaert",
+      "name": "Helena Lauwaert",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--core--kellar",
+      "name": "Kellar",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--core--lammer",
+      "name": "Lammer",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--core--malugi",
+      "name": "Malugi",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--core--saidah",
+      "name": "Saidah",
+      "day": "sunday",
+      "stage": "CORE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--bhaskar",
+      "name": "Bhaskar",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--brina-knauss",
+      "name": "Brina Knauss",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--franc-fala-b2b-benja",
+      "name": "Franc Fala b2b Benja",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--kevin-de-vries-b2b-meduza",
+      "name": "Kevin de Vries b2b Meduza",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--like-mike",
+      "name": "Like Mike",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--crystal-garden--mind-against",
+      "name": "Mind Against",
+      "day": "sunday",
+      "stage": "CRYSTAL GARDEN",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--dino",
+      "name": "Dino",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--elixir--jael-ost-magik",
+      "name": "Jaël Ost & MagiK",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--elixir--karakals",
+      "name": "Karakals",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--kav-verhouzer-de-hofnar-presents-eurodance",
+      "name": "Kav Verhouzer & de Hofnar presents: Eurodance",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--elixir--lennert-wolfs",
+      "name": "Lennert Wolfs",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--michael-amani",
+      "name": "Michael Amani",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--michael-amani-friends",
+      "name": "Michael Amani & Friends",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--reeze",
+      "name": "Reeze",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--elixir--vikkstar",
+      "name": "Vikkstar",
+      "day": "sunday",
+      "stage": "ELIXIR",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--amelie-lens-presents-aura",
+      "name": "Amelie Lens presents Aura",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--artbat",
+      "name": "Artbat",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--axel-haube",
+      "name": "Axel Haube",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--fideles",
+      "name": "Fideles",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--korolova",
+      "name": "Korolova",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--laura-hoogland",
+      "name": "Laura Hoogland",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--freedom-by-bud--push-only",
+      "name": "Push only",
+      "day": "sunday",
+      "stage": "FREEDOM BY BUD",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--bassjackers",
+      "name": "Bassjackers",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--dj-f-r-a-n-k",
+      "name": "DJ F.R.A.N.K",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--dj-lex",
+      "name": "DJ Lex",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--the-criminal-sounds",
+      "name": "The Criminal Sounds",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--the-rocketman",
+      "name": "The Rocketman",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--house-of-fortune-by-jbl--tigerlily",
+      "name": "TIGERLILY",
+      "day": "sunday",
+      "stage": "HOUSE OF FORTUNE BY JBL",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--afrojack-b2b-r3hab",
+      "name": "Afrojack b2b R3hab",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--chase-status-dj-set",
+      "name": "Chase & Status (DJ set)",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Drum & Bass"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--cyril",
+      "name": "Cyril",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--lost-frequencies",
+      "name": "Lost Frequencies",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Deep House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--lucas-steve",
+      "name": "Lucas & Steve",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--martin-garrix",
+      "name": "Martin Garrix",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--mc-stretch",
+      "name": "MC STRETCH",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--odd-mob",
+      "name": "Odd Mob",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--sara-landry",
+      "name": "Sara Landry",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--mainstage--steve-aoki",
+      "name": "Steve Aoki",
+      "day": "sunday",
+      "stage": "MAINSTAGE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--alex-kennon",
+      "name": "Alex Kennon",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--bobbi-antonni",
+      "name": "Bobbi Antonni",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--cristiano-da-silva",
+      "name": "Cristiano Da Silva",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--delafino-luna-fino",
+      "name": "Delafino & Luna Fino",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Deep House",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--dominico",
+      "name": "Dominico",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--eli-rojas",
+      "name": "Eli Rojas",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--oriol-calvo",
+      "name": "Oriol Calvo",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--rayco-santos",
+      "name": "Rayco Santos",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--melodia-by-corona--valentin-huedo",
+      "name": "Valentín Huedo",
+      "day": "sunday",
+      "stage": "MELODIA BY CORONA",
+      "genres": [
+        "Deep House"
+      ]
+    },
+    {
+      "id": "sunday--moose-bar--brian",
+      "name": "Brian",
+      "day": "sunday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--moose-bar--jan-v",
+      "name": "Jan V",
+      "day": "sunday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--moose-bar--mr-e",
+      "name": "Mr E.",
+      "day": "sunday",
+      "stage": "MOOSE BAR",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--anaya",
+      "name": "ANAYA",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--chuckie",
+      "name": "Chuckie",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--deorro",
+      "name": "Deorro",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--laidback-luke",
+      "name": "Laidback Luke",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--okayval",
+      "name": "Okayval",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--olivex",
+      "name": "Olivex",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--quintino",
+      "name": "Quintino",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--sick-individuals",
+      "name": "Sick individuals",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Tech House",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--superheroes",
+      "name": "Superheroes",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--thomas-gold",
+      "name": "Thomas Gold",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--planaxis--yves-v-b2b-stadiumx",
+      "name": "Yves V b2b StadiumX",
+      "day": "sunday",
+      "stage": "PLANAXIS",
+      "genres": [
+        "Hardstyle",
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--bassjackers",
+      "name": "Bassjackers",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--brennan-heart",
+      "name": "Brennan Heart",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--darren-styles",
+      "name": "Darren Styles",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--diego-miranda-b2b-jerry-davila",
+      "name": "Diego Miranda b2b Jerry Davila",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--kaaze",
+      "name": "Kaaze",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--lucca-van-damme",
+      "name": "Lucca van Damme",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--nervo",
+      "name": "NERVO",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--nico-moreno",
+      "name": "Nico Moreno",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-great-library--paris-hilton",
+      "name": "Paris Hilton",
+      "day": "sunday",
+      "stage": "THE GREAT LIBRARY",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--benny-plays",
+      "name": "Benny Plays",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--d-guaetta-b2b-neon",
+      "name": "D. Guaetta b2b Neon",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--eme",
+      "name": "EME",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--hyalyte",
+      "name": "Hyalyte",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--kriss-reeve",
+      "name": "Kriss Reeve",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "EDM/Big Room"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--mr-rewind",
+      "name": "Mr. Rewind",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Tech House"
+      ]
+    },
+    {
+      "id": "sunday--the-rave-cave--muze",
+      "name": "Muze",
+      "day": "sunday",
+      "stage": "THE RAVE CAVE",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--bassbrain",
+      "name": "BassBrain",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--coone",
+      "name": "Coone",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--d-charged-b2b-serzo",
+      "name": "D-Charged b2b Serzo",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Techno",
+        "Peak Time Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--da-tweekaz",
+      "name": "Da Tweekaz",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--hard-driver",
+      "name": "Hard Driver",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--lost-identity",
+      "name": "Lost Identity",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--mark-with-a-k-mc-chucky",
+      "name": "Mark With A K & MC Chucky",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--sound-rush",
+      "name": "Sound Rush",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--the-purge",
+      "name": "The Purge",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--the-straikerz",
+      "name": "The Straikerz",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--villain",
+      "name": "Villain",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    },
+    {
+      "id": "sunday--the-rose-garden--warface",
+      "name": "Warface",
+      "day": "sunday",
+      "stage": "THE ROSE GARDEN",
+      "genres": [
+        "Hardstyle"
+      ]
+    }
+  ]
+}

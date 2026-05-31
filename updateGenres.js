@@ -1,5 +1,6 @@
 /**
- * Einmaliges Skript: aktualisiert alle Genres in lineup.json als präzise Arrays.
+ * Überschreibt Genres via genreAssigner (alte Heuristik).
+ * Nach manuellem CSV-Import: npm run import-genres-csv verwenden, NICHT dieses Skript.
  * Usage: node updateGenres.js
  */
 const fs = require('fs');

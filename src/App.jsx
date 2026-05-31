@@ -110,80 +110,80 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen">
-      <header className="border-b border-tml-border bg-gradient-to-r from-tml-dark via-[#1a0f2e] to-tml-dark sticky top-0 z-20 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 py-5">
-          <div className="flex flex-wrap items-center justify-between gap-4">
+    <div className="min-h-screen min-h-[100dvh]">
+      <header className="border-b border-tml-border bg-gradient-to-r from-tml-dark via-[#1a0f2e] to-tml-dark sticky top-0 z-20 backdrop-blur-md pt-[env(safe-area-inset-top)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 py-4 sm:py-5">
+          <div className="space-y-4">
             <div>
-              <p className="text-tml-gold text-xs font-medium tracking-widest uppercase flex items-center gap-1">
-                <Sparkles className="w-3.5 h-3.5" />
+              <p className="text-tml-gold text-[11px] sm:text-xs font-medium tracking-widest uppercase flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5 shrink-0" />
                 Tomorrowland 2026 · Week 2
               </p>
-              <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white to-tml-purple bg-clip-text text-transparent">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-white to-tml-purple bg-clip-text text-transparent leading-tight mt-0.5">
                 Festival Planner
               </h1>
-              <p className="text-white/40 text-sm mt-1">
+              <p className="text-white/40 text-xs sm:text-sm mt-1">
                 {lineupData.meta.totalActs} Acts · {lineupData.stages.length} Stages
                 {activeFriends.length > 0 && (
-                  <> · {activeFriends.length} friend(s) in comparison</>
+                  <> · {activeFriends.length} friend(s)</>
                 )}
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2">
-              <label className="flex items-center gap-2 px-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm">
-                <User className="w-4 h-4 text-white/40 shrink-0" />
-                <span className="text-white/50 shrink-0">Your name</span>
-                <input
-                  type="text"
-                  value={userName}
-                  onChange={(e) => setUserName(e.target.value)}
-                  placeholder="e.g. Alex"
-                  maxLength={40}
-                  className="bg-transparent border-none outline-none min-w-[100px] text-white placeholder:text-white/30"
-                />
-              </label>
+            <label className="flex items-center gap-2 px-3 py-2.5 min-h-[44px] rounded-lg bg-tml-card border border-tml-border text-sm w-full">
+              <User className="w-4 h-4 text-white/40 shrink-0" />
+              <span className="text-white/50 shrink-0 text-xs sm:text-sm">Name</span>
+              <input
+                type="text"
+                value={userName}
+                onChange={(e) => setUserName(e.target.value)}
+                placeholder="Your name"
+                maxLength={40}
+                className="bg-transparent border-none outline-none flex-1 min-w-0 text-white placeholder:text-white/30"
+              />
+            </label>
 
+            <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center">
               <button
                 type="button"
                 onClick={() => setView('lineup')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`flex items-center justify-center gap-2 px-3 py-3 min-h-[44px] rounded-lg text-sm font-medium transition-colors touch-manipulation ${
                   view === 'lineup'
                     ? 'bg-tml-purple text-white'
-                    : 'bg-white/10 hover:bg-white/20'
+                    : 'bg-white/10 active:bg-white/20'
                 }`}
               >
-                <LayoutList className="w-4 h-4" />
+                <LayoutList className="w-4 h-4 shrink-0" />
                 Lineup
               </button>
               <button
                 type="button"
                 onClick={() => setView('timetable')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`flex items-center justify-center gap-2 px-3 py-3 min-h-[44px] rounded-lg text-sm font-medium transition-colors touch-manipulation ${
                   view === 'timetable'
                     ? 'bg-tml-gold text-tml-dark'
-                    : 'bg-white/10 hover:bg-white/20'
+                    : 'bg-white/10 active:bg-white/20'
                 }`}
               >
-                <CalendarDays className="w-4 h-4" />
-                My timetable ({totalSelected})
+                <CalendarDays className="w-4 h-4 shrink-0" />
+                <span className="truncate">Timetable ({totalSelected})</span>
               </button>
               <button
                 type="button"
                 onClick={copyShareLink}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-white/10 hover:bg-tml-gold/20 border border-tml-gold/30"
+                className="col-span-2 sm:col-span-1 flex items-center justify-center gap-2 px-3 py-3 min-h-[44px] rounded-lg text-sm font-medium bg-white/10 active:bg-tml-gold/20 border border-tml-gold/30 touch-manipulation"
               >
-                <Share2 className="w-4 h-4" />
+                <Share2 className="w-4 h-4 shrink-0" />
                 Copy share link
               </button>
             </div>
           </div>
 
-          {shareNotice && <p className="mt-2 text-sm text-green-400">{shareNotice}</p>}
+          {shareNotice && <p className="mt-3 text-sm text-green-400">{shareNotice}</p>}
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 py-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-5 py-5 sm:py-6 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
         <FriendsCompare
           friends={friendsTimetables}
           friendLinkInput={friendLinkInput}
@@ -196,16 +196,19 @@ export default function App() {
 
         {view === 'lineup' ? (
           <>
-            <nav className="flex flex-wrap gap-2 mb-6">
+            <nav
+              className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-5 sm:mb-6 flex gap-2 overflow-x-auto scrollbar-none snap-x snap-mandatory pb-1"
+              aria-label="Festival days"
+            >
               {DAY_TABS.map((tab) => (
                 <button
                   key={tab.id}
                   type="button"
                   onClick={() => setActiveDay(tab.id)}
-                  className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${
+                  className={`shrink-0 snap-start px-4 sm:px-5 py-3 min-h-[44px] rounded-full text-sm font-medium transition-all touch-manipulation whitespace-nowrap ${
                     activeDay === tab.id
                       ? 'bg-tml-gold text-tml-dark shadow-lg shadow-tml-gold/20'
-                      : 'bg-tml-card border border-tml-border hover:border-tml-purple'
+                      : 'bg-tml-card border border-tml-border active:border-tml-purple'
                   }`}
                 >
                   {tab.label}
@@ -228,32 +231,31 @@ export default function App() {
               />
             </div>
 
-            <div className="grid lg:grid-cols-[1fr_320px] gap-6">
-              <section>
-                <p className="text-sm text-white/50 mb-4">
-                  {isGlobalSearch ? (
-                    <>
-                      {filteredActs.length} results across all 3 days
-                      {stageFilter || genreFilter ? ' (filtered)' : ''}
-                      {isSearchPending ? ' …' : ''}
-                    </>
-                  ) : (
-                    <>
-                      {filteredActs.length} of{' '}
-                      {lineupData.days[activeDay].acts.length} Acts
-                    </>
-                  )}
-                  {activeFriends.length > 0 && (
-                    <span className="text-orange-300/80">
-                      {' '}
-                      · Orange = overlap with friends
-                    </span>
-                  )}
-                  <span className="text-tml-purple/80">
-                    {' '}
-                    · Purple border = preview · Yellow check = in timetable
-                  </span>
-                </p>
+            <div className="grid lg:grid-cols-[1fr_minmax(280px,320px)] gap-5 lg:gap-6">
+              <section className="min-w-0">
+                <div className="text-sm text-white/50 mb-4 space-y-2">
+                  <p className="font-medium text-white/70">
+                    {isGlobalSearch ? (
+                      <>
+                        {filteredActs.length} results across all 3 days
+                        {stageFilter || genreFilter ? ' (filtered)' : ''}
+                        {isSearchPending ? ' …' : ''}
+                      </>
+                    ) : (
+                      <>
+                        {filteredActs.length} of{' '}
+                        {lineupData.days[activeDay].acts.length} acts
+                      </>
+                    )}
+                  </p>
+                  <ul className="text-xs text-white/45 space-y-1 sm:flex sm:flex-wrap sm:gap-x-3 sm:gap-y-1 sm:space-y-0">
+                    {activeFriends.length > 0 && (
+                      <li className="text-orange-300/90">Orange = friend overlap</li>
+                    )}
+                    <li className="text-tml-purple/90">Purple border = preview</li>
+                    <li>Yellow check = in your timetable</li>
+                  </ul>
+                </div>
 
                 {isGlobalSearch ? (
                   <div className="space-y-8">
@@ -314,11 +316,13 @@ export default function App() {
                 )}
               </section>
 
-              {recommendationsPanel}
+              <div className="min-w-0 lg:sticky lg:top-28 lg:self-start">
+                {recommendationsPanel}
+              </div>
             </div>
           </>
         ) : (
-          <div className="grid lg:grid-cols-[1fr_320px] gap-6">
+          <div className="grid lg:grid-cols-[1fr_minmax(280px,320px)] gap-5 lg:gap-6">
             <MyTimetable
               myTimetable={myTimetable}
               actById={actById}
@@ -330,13 +334,18 @@ export default function App() {
               onYoutubeResult={setYoutubeResult}
               getFriendOverlaps={getFriendOverlaps}
             />
-            {recommendationsPanel}
+            <div className="min-w-0 lg:sticky lg:top-28 lg:self-start">
+              {recommendationsPanel}
+            </div>
           </div>
         )}
       </main>
 
-      <footer className="border-t border-tml-border mt-12 py-6 text-center text-xs text-white/30">
-        Share format: <code className="text-white/50">?name=YourName&tracks=id1,id2,…</code>
+      <footer className="border-t border-tml-border mt-10 sm:mt-12 py-5 sm:py-6 px-4 text-center text-xs text-white/30">
+        <p className="mb-1">Share format</p>
+        <code className="text-white/50 break-all text-[11px] sm:text-xs leading-relaxed block max-w-lg mx-auto">
+          ?name=YourName&tracks=id1,id2,…
+        </code>
       </footer>
     </div>
   );

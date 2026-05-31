@@ -8,7 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "scrape": "node scraper.js",
-    "update-genres": "node updateGenres.js"
+    "update-genres": "node updateGenres.js",
+    "export-djs": "node exportDjsForGenreReview.js",
+    "import-genres": "node importGenresFromReview.js",
+    "import-genres-csv": "node importGenresFromCsv.js"
   },
   "keywords": [],
   "author": "",

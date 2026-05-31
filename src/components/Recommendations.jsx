@@ -22,7 +22,7 @@ function Recommendations({
 
   if (!selectedAct) {
     return (
-      <aside className="rounded-xl border border-tml-purple/40 bg-gradient-to-b from-tml-card to-tml-dark p-4 lg:sticky lg:top-28">
+      <aside className="rounded-xl border border-tml-purple/40 bg-gradient-to-b from-tml-card to-tml-dark p-4 sm:p-5">
         <div className="flex items-center gap-2 mb-2">
           <Brain className="w-5 h-5 text-tml-purple" />
           <h2 className="font-semibold text-tml-gold">AI recommendations</h2>
@@ -36,7 +36,7 @@ function Recommendations({
   }
 
   return (
-    <aside className="rounded-xl border border-tml-purple/40 bg-gradient-to-b from-tml-card to-[#120a1c] p-4 space-y-3 lg:sticky lg:top-28">
+    <aside className="rounded-xl border border-tml-purple/40 bg-gradient-to-b from-tml-card to-[#120a1c] p-4 sm:p-5 space-y-3">
       <div className="flex items-center gap-2">
         <Sparkles className="w-5 h-5 text-tml-gold" />
         <h2 className="font-semibold text-tml-gold">AI recommendations</h2>
@@ -50,7 +50,7 @@ function Recommendations({
       {recs.length === 0 ? (
         <p className="text-sm text-white/50">No more similar acts on this day.</p>
       ) : (
-        <div className="space-y-3 max-h-[70vh] overflow-y-auto pr-1">
+        <div className="space-y-3 max-h-none sm:max-h-[50vh] lg:max-h-[70vh] overflow-y-auto pr-1 -mr-1">
           {recs.map(({ act, reasons }) => (
             <div key={act.id} className="space-y-1">
               {reasons?.length > 0 && (
