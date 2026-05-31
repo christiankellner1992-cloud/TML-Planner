@@ -1,0 +1,3631 @@
+{
+  "meta": {
+    "festival": "Tomorrowland Belgium 2026",
+    "weekend": "Week 2",
+    "scrapedAt": "2026-05-31T13:50:31.869Z",
+    "source": "https://belgium.tomorrowland.com/en/line-up/",
+    "totalActs": 356
+  },
+  "days": {
+    "friday": {
+      "id": "friday",
+      "date": "2026-07-24",
+      "label": "Freitag, 24. Juli",
+      "acts": [
+        {
+          "id": "friday--mainstage--alok",
+          "name": "Alok",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Brazilian Bass"
+        },
+        {
+          "id": "friday--mainstage--ely-oaks",
+          "name": "Ely Oaks",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "friday--mainstage--hardwell",
+          "name": "Hardwell",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "friday--mainstage--indira-paganotto",
+          "name": "Indira Paganotto",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--mainstage--kolsch",
+          "name": "Kölsch",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--mainstage--mc-stretch",
+          "name": "MC STRETCH",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "friday--mainstage--miss-monique",
+          "name": "Miss Monique",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--mainstage--nicky-romero",
+          "name": "Nicky Romero",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Progressive House"
+        },
+        {
+          "id": "friday--mainstage--steve-angello",
+          "name": "Steve Angello",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Progressive House"
+        },
+        {
+          "id": "friday--mainstage--yves-v",
+          "name": "Yves V",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "friday--freedom-by-bud--aaron-hibell",
+          "name": "Aaron Hibell",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--freedom-by-bud--alesso",
+          "name": "Alesso",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Progressive House"
+        },
+        {
+          "id": "friday--freedom-by-bud--amber-broos-b2b-juliet-fox",
+          "name": "Amber Broos b2b Juliet Fox",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--freedom-by-bud--esin-boz",
+          "name": "Esin Boz",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "friday--freedom-by-bud--fisher",
+          "name": "Fisher",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Tech House"
+        },
+        {
+          "id": "friday--freedom-by-bud--james-hype",
+          "name": "James Hype",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Tech House"
+        },
+        {
+          "id": "friday--freedom-by-bud--joa",
+          "name": "JOA",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "friday--the-rose-garden--alleycvt",
+          "name": "ALLEYCVT",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--basstripper",
+          "name": "Basstripper",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "UK Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--borgore",
+          "name": "Borgore",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Dubstep"
+        },
+        {
+          "id": "friday--the-rose-garden--bou-b-live-247",
+          "name": "BOU + B LIVE 247",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--ghengar",
+          "name": "Ghengar",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Dubstep"
+        },
+        {
+          "id": "friday--the-rose-garden--goddard",
+          "name": "Goddard",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--jessica-audiffred",
+          "name": "Jessica Audiffred",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--licia",
+          "name": "LICIA",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--lucky-luke",
+          "name": "Lucky Luke",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--riot-ten",
+          "name": "Riot Ten",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--shawiya-tribe",
+          "name": "Shawiya Tribe",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--the-rose-garden--sullivan-king",
+          "name": "Sullivan King",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "BASSRUSH",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "friday--elixir--hirak",
+          "name": "$hirak",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--brooke-bailey-b2b-taliyah-ayana",
+          "name": "Brooke Bailey b2b Taliyah Ayana",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--cham-b2b-uneak",
+          "name": "Cham b2b Uneak",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--dany-neville",
+          "name": "Dany Neville",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--flash",
+          "name": "Flash",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--iris-rooth",
+          "name": "Iris Rooth",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--irwan",
+          "name": "Irwan",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--miro",
+          "name": "Miro",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--nems",
+          "name": "Nems",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--rosh",
+          "name": "Rosh",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--elixir--valentino-ignoto",
+          "name": "Valentino Ignoto",
+          "stage": "ELIXIR",
+          "hostedBy": "LEMONADE",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--cage--bazzy",
+          "name": "BAZZY",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--dj-furax",
+          "name": "DJ FURAX",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--drs-b2b-sandy-warez",
+          "name": "DRS b2b SANDY WAREZ",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--imhappy",
+          "name": "IMHAPPY",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--lekkerfaces",
+          "name": "LEKKERFACES",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--natte-visstick",
+          "name": "NATTE VISSTICK",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--partyraiser-b2b-bulletproof",
+          "name": "PARTYRAISER b2b BULLETPROOF",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--terrorclown",
+          "name": "TERRORCLOWN",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--todiefor",
+          "name": "TODIEFOR",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--toxic-twins",
+          "name": "TOXIC TWINS",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--cage--yoshiko",
+          "name": "YOSHIKO",
+          "stage": "CAGE",
+          "hostedBy": "FOOTWORXX",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--the-rave-cave--bisoux-b2b-jef-nice",
+          "name": "Bisoux b2b Jef Nice",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--the-rave-cave--leesa",
+          "name": "Leesa",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--the-rave-cave--lou8",
+          "name": "Lou8",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--the-rave-cave--mairee",
+          "name": "Mairee",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--the-rave-cave--mr-joy",
+          "name": "Mr. Joy",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--the-rave-cave--xijaro-pitch",
+          "name": "Xijaro & Pitch",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--planaxis--avalon",
+          "name": "Avalon",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--beat-controllers",
+          "name": "Beat Controllers",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--blastoyz",
+          "name": "Blastoyz",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--blazy",
+          "name": "Blazy",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--domi-re",
+          "name": "Domi Re",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--electric-universe",
+          "name": "Electric Universe",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--firaga",
+          "name": "Firaga",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--locus",
+          "name": "Locus",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--phaxe",
+          "name": "Phaxe",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--somnia",
+          "name": "Somnia",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--planaxis--vegas",
+          "name": "Vegas",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "friday--planaxis--vitor-falabella",
+          "name": "Vitor Falabella",
+          "stage": "PLANAXIS",
+          "hostedBy": "PSYGATHERING",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "friday--melodia-by-corona--jeroen-delodder",
+          "name": "Jeroen Delodder",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "DISCO ZONDERDAG",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "friday--melodia-by-corona--john-noseda",
+          "name": "John Noseda",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "DISCO ZONDERDAG",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--melodia-by-corona--joulie",
+          "name": "Joulie",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "DISCO ZONDERDAG",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "friday--melodia-by-corona--planet-groove-dj-s",
+          "name": "Planet Groove DJ's",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "DISCO ZONDERDAG",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "friday--melodia-by-corona--spies",
+          "name": "SPIES",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "DISCO ZONDERDAG",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--aat",
+          "name": "AAT",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--belters-only",
+          "name": "Belters Only",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--gissa",
+          "name": "Gissa",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--mr-belt-wezol",
+          "name": "Mr. Belt & Wezol",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--ruze-b2b-ranger-trucco",
+          "name": "Ruze b2b Ranger Trucco",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--celestia-by-kucoin--saar-kuus",
+          "name": "Saar Kuus",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "CUCKOO'S NEST",
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "friday--atmosphere--azyr",
+          "name": "Azyr",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--boy-girl",
+          "name": "BOY&GIRL",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--callush",
+          "name": "Callush",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--dyen-b2b-maddix",
+          "name": "Dyen b2b Maddix",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--holy-priest",
+          "name": "Holy Priest",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--atmosphere--mha-iri",
+          "name": "Mha Iri",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--onlynumbers",
+          "name": "Onlynumbers",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--atmosphere--skeletor-yogi",
+          "name": "Skeletor Yogi",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "friday--core--bibi-seck-b2b-faisal",
+          "name": "Bibi Seck b2b Faisal",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "friday--core--bullet-tooth",
+          "name": "Bullet Tooth",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--core--fais-le-beau-b2b-sixsixsixties",
+          "name": "Fais Le Beau b2b Sixsixsixties",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--core--kamma",
+          "name": "Kamma",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--core--mall-grab",
+          "name": "Mall Grab",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--core--ogazon",
+          "name": "Ogazón",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--core--oscar-and-the-wolf",
+          "name": "Oscar and the Wolf",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "friday--crystal-garden--capoon",
+          "name": "Capoon",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--deco",
+          "name": "Deco",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--hugel",
+          "name": "Hugel",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--joezi",
+          "name": "Joezi",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--kitty-amor-b2b-curol",
+          "name": "Kitty Amor b2b Curol",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--mahmut-orhan",
+          "name": "Mahmut Orhan",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--malive",
+          "name": "Malive",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--crystal-garden--shimza",
+          "name": "Shimza",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "friday--the-great-library--5napback",
+          "name": "5NAPBACK",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--alan-walker",
+          "name": "Alan Walker",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "friday--the-great-library--b-jones",
+          "name": "B Jones",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--halo",
+          "name": "HALŌ",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--illenium",
+          "name": "Illenium",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Melodic Bass"
+        },
+        {
+          "id": "friday--the-great-library--kaskade",
+          "name": "Kaskade",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--mandy",
+          "name": "MANDY",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--meaghan",
+          "name": "Meaghan",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--merow",
+          "name": "Merow",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--nome",
+          "name": "NOME.",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--omdat-het-kan-average-rob",
+          "name": "Omdat Het Kan & Average Rob",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--the-great-library--regi",
+          "name": "Regi",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--moose-bar--jo-cox",
+          "name": "Jo Cox",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--moose-bar--prosit",
+          "name": "Prosit",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--moose-bar--the-bobmeister",
+          "name": "The Bobmeister",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--house-of-fortune-by-jbl--alan-alvarez-crazy-sir-g",
+          "name": "Alan Alvarez & CRAZY SIR-G",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--house-of-fortune-by-jbl--elfigo",
+          "name": "ELFIGO",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--house-of-fortune-by-jbl--martin-trevy",
+          "name": "Martin Trevy",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--house-of-fortune-by-jbl--reygel",
+          "name": "Reygel",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "friday--house-of-fortune-by-jbl--vinne",
+          "name": "Vinne",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "friday",
+          "date": "2026-07-24",
+          "dayLabel": "Freitag, 24. Juli",
+          "genre": "Hardstyle"
+        }
+      ]
+    },
+    "saturday": {
+      "id": "saturday",
+      "date": "2026-07-25",
+      "label": "Samstag, 25. Juli",
+      "acts": [
+        {
+          "id": "saturday--mainstage--agents-of-time",
+          "name": "Agents of Time",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--angemi",
+          "name": "Angemi",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--armin-van-buuren",
+          "name": "Armin van Buuren",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Trance"
+        },
+        {
+          "id": "saturday--mainstage--calvin-harris",
+          "name": "Calvin Harris",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--mainstage--d-o-d",
+          "name": "D.O.D",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--dimitri-vegas-like-mike",
+          "name": "Dimitri Vegas & Like Mike",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--mattn",
+          "name": "MATTN",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--mc-stretch",
+          "name": "MC STRETCH",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--mike-williams",
+          "name": "Mike Williams",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Future House"
+        },
+        {
+          "id": "saturday--mainstage--morten",
+          "name": "Morten",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--mainstage--sub-zero-project",
+          "name": "Sub Zero Project",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--freedom-by-bud--andromedik",
+          "name": "Andromedik",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--argy",
+          "name": "Argy",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--calao",
+          "name": "Calao",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--massano",
+          "name": "Massano",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--freedom-by-bud--mosimann-b2b-elfigo",
+          "name": "Mosimann b2b ELFIGO",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--romy-janssen",
+          "name": "Romy Janssen",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--sebastian-ingrosso",
+          "name": "Sebastian Ingrosso",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Progressive House"
+        },
+        {
+          "id": "saturday--freedom-by-bud--symphony-of-unity",
+          "name": "Symphony Of Unity",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "saturday--freedom-by-bud--timmy-trumpet",
+          "name": "Timmy Trumpet",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "saturday--the-rose-garden--bountyhunter",
+          "name": "BountyHunter",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--cherry-moon-legends-friends",
+          "name": "Cherry Moon Legends (& Friends)",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--danny-corten",
+          "name": "Danny Corten",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--dimitri-cooman",
+          "name": "Dimitri Cooman",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--dj-ghost",
+          "name": "DJ Ghost",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--franky-kloeck",
+          "name": "Franky Kloeck",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--jamie-dill",
+          "name": "Jamie Dill",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--maite-dedecker",
+          "name": "Maite Dedecker",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--quincy",
+          "name": "Quincy",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-rose-garden--youri-parker",
+          "name": "Youri Parker",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TRIBUTE TO BELGIUM: CHERRY MOON",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--elixir--annabel-stop-it",
+          "name": "Annabel Stop It",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--butterfly-effect",
+          "name": "Butterfly Effect",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--dj-art",
+          "name": "DJ ART",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--eimco",
+          "name": "Eimco",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--knox-kind",
+          "name": "Knox Kind",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--lady-s",
+          "name": "Lady S",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--nina-black",
+          "name": "Nina Black",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--noa",
+          "name": "NOA",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--ruby-xx",
+          "name": "RUBY XX",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--sandersville",
+          "name": "Sandersville",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--elixir--shoarma-soundsystem",
+          "name": "⁠⁠SHOARMA SOUNDSYSTEM",
+          "stage": "ELIXIR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--cage--iosio",
+          "name": "IOSIO",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--macon",
+          "name": "Macon",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--mero-b2b-daire",
+          "name": "Mero b2b Daire",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--mondello",
+          "name": "Mondello",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--niotech",
+          "name": "Niotech",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--rune-evens",
+          "name": "Rune Evens",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--stanne",
+          "name": "Stanne",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--uberjak-d-feat-ella-young",
+          "name": "Uberjak'd feat Ella Young",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--cage--x-trick",
+          "name": "X&Trick",
+          "stage": "CAGE",
+          "hostedBy": "RAVE ALERT",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--flowchief",
+          "name": "Flowchief",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--jorn-pricez",
+          "name": "Jorn Pricez",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--justin-wilkes",
+          "name": "Justin Wilkes",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--netherworld",
+          "name": "Netherworld",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--pat-krimson",
+          "name": "Pat Krimson",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--roma",
+          "name": "Roma",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--the-rave-cave--simon-b",
+          "name": "Simon B",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--planaxis--alicia-hahn",
+          "name": "Alicia Hahn",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--colyn-b2b-sainte-vie",
+          "name": "Colyn b2b Sainte Vie",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--dyzen",
+          "name": "Dyzen",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--na-tus",
+          "name": "NA:TUS",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--tim-bliss",
+          "name": "Tim Bliss",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--yet-more",
+          "name": "Yet More",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--planaxis--yulia-niko",
+          "name": "Yulia Niko",
+          "stage": "PLANAXIS",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "saturday--melodia-by-corona--emilia-de-la-paz",
+          "name": "Emilia De La Paz",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--geheimzinnig-soundsystem",
+          "name": "Geheimzinnig Soundsystem",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--larry-masmero",
+          "name": "Larry Masmero",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--mooris",
+          "name": "Mooris",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--sam-girling",
+          "name": "Sam Girling",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--sea",
+          "name": "Séa",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--melodia-by-corona--soulastico-b2b-tohma",
+          "name": "Soulastico b2b Tohma",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "GEHEIMZINNIG",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--bingo-players-with-iceman",
+          "name": "Bingo Players with Iceman",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--chocolate-puma",
+          "name": "Chocolate Puma",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--dada-life",
+          "name": "Dada Life",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--dannic-b2b-dyro",
+          "name": "Dannic b2b Dyro",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--gregor-salto",
+          "name": "Gregor Salto",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--lny-tnz-jump-never-dies-take-over",
+          "name": "LNY TNZ: Jump Never Dies (Take-Over)",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--odssey",
+          "name": "Odssey",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--sander-van-doorn",
+          "name": "Sander van doorn",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--swanky-tunes",
+          "name": "Swanky Tunes",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--celestia-by-kucoin--yamo",
+          "name": "Yamo",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": "2010 - 2012",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "saturday--atmosphere--2hot2play",
+          "name": "2hot2play",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--emilija-b2b-fenrick",
+          "name": "EMILIJA b2b Fenrick",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--i-hate-models",
+          "name": "I Hate Models",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--kneiz",
+          "name": "Kneiz",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--noise-mafia",
+          "name": "Noise Mafia",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--novah",
+          "name": "Novah",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--atmosphere--pegassi",
+          "name": "Pegassi",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "saturday--core--dino-lenny-b2b-radioslave",
+          "name": "Dino Lenny b2b Radioslave",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--core--haai-b2b-the-blessed-madonna",
+          "name": "HAAi b2b The Blessed Madonna",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--core--shee",
+          "name": "SHEE",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--crystal-garden--ayybo-b2b-odd-mob",
+          "name": "Ayybo b2b Odd Mob",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--crystal-garden--guz",
+          "name": "GUZ",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--crystal-garden--hi-lo-b2b-layton-giordani",
+          "name": "HI-LO b2b Layton Giordani",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--crystal-garden--john-summit",
+          "name": "John Summit",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Tech House"
+        },
+        {
+          "id": "saturday--crystal-garden--lp-giobbi",
+          "name": "LP Giobbi",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "saturday--crystal-garden--max-styler",
+          "name": "Max Styler",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Tech House"
+        },
+        {
+          "id": "saturday--crystal-garden--naomi-cazier",
+          "name": "Naomi Cazier",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--crystal-garden--roddy-lima",
+          "name": "Roddy Lima",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": "EXPERTS ONLY",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "saturday--the-great-library--chris-lorenzo",
+          "name": "Chris Lorenzo",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--gorgon-city",
+          "name": "Gorgon City",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--henri-pfr",
+          "name": "Henri PFR",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--lost-frequencies",
+          "name": "Lost Frequencies",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Deep House"
+        },
+        {
+          "id": "saturday--the-great-library--me-n-u",
+          "name": "me n ü",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--mesto",
+          "name": "Mesto",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--netsky",
+          "name": "Netsky",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-great-library--radio-cargo",
+          "name": "Radio Cargo",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--sonny-fodera",
+          "name": "Sonny Fodera",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--the-great-library--wilkinson",
+          "name": "Wilkinson",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "saturday--the-great-library--zhu",
+          "name": "ZHU",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "LOST FREQUENCIES & FRIENDS",
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--moose-bar--kurt-verheyen",
+          "name": "Kurt Verheyen",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--moose-bar--mobius-one",
+          "name": "Mobius One",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--moose-bar--mr-e",
+          "name": "Mr E.",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--house-of-fortune-by-jbl--carly-wilford",
+          "name": "Carly Wilford",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--house-of-fortune-by-jbl--mosimann",
+          "name": "Mosimann",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "saturday--house-of-fortune-by-jbl--yaz",
+          "name": "Yaz.",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "saturday",
+          "date": "2026-07-25",
+          "dayLabel": "Samstag, 25. Juli",
+          "genre": "Hardstyle"
+        }
+      ]
+    },
+    "sunday": {
+      "id": "sunday",
+      "date": "2026-07-26",
+      "label": "Sonntag, 26. Juli",
+      "acts": [
+        {
+          "id": "sunday--mainstage--afrojack-b2b-r3hab",
+          "name": "Afrojack b2b R3hab",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--chase-status-dj-set",
+          "name": "Chase & Status (DJ set)",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--mainstage--cyril",
+          "name": "Cyril",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--lost-frequencies",
+          "name": "Lost Frequencies",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Deep House"
+        },
+        {
+          "id": "sunday--mainstage--lucas-steve",
+          "name": "Lucas & Steve",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--martin-garrix",
+          "name": "Martin Garrix",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--mc-stretch",
+          "name": "MC STRETCH",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--odd-mob",
+          "name": "Odd Mob",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--mainstage--sara-landry",
+          "name": "Sara Landry",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--mainstage--steve-aoki",
+          "name": "Steve Aoki",
+          "stage": "MAINSTAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--freedom-by-bud--amelie-lens-presents-aura",
+          "name": "Amelie Lens presents Aura",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--freedom-by-bud--artbat",
+          "name": "Artbat",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--freedom-by-bud--axel-haube",
+          "name": "Axel Haube",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--freedom-by-bud--fideles",
+          "name": "Fideles",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--freedom-by-bud--korolova",
+          "name": "Korolova",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--freedom-by-bud--laura-hoogland",
+          "name": "Laura Hoogland",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--freedom-by-bud--push-only",
+          "name": "Push only",
+          "stage": "FREEDOM BY BUD",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--the-rose-garden--bassbrain",
+          "name": "BassBrain",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--coone",
+          "name": "Coone",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-rose-garden--d-charged-b2b-serzo",
+          "name": "D-Charged b2b Serzo",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--da-tweekaz",
+          "name": "Da Tweekaz",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-rose-garden--hard-driver",
+          "name": "Hard Driver",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--lost-identity",
+          "name": "Lost Identity",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--mark-with-a-k-mc-chucky",
+          "name": "Mark With A K & MC Chucky",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--sound-rush",
+          "name": "Sound Rush",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--the-purge",
+          "name": "The Purge",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--the-straikerz",
+          "name": "The Straikerz",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--villain",
+          "name": "Villain",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--the-rose-garden--warface",
+          "name": "Warface",
+          "stage": "THE ROSE GARDEN",
+          "hostedBy": "TWEEKAMANIA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Drum & Bass"
+        },
+        {
+          "id": "sunday--elixir--dino",
+          "name": "Dino",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--jael-ost-magik",
+          "name": "Jaël Ost & MagiK",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--elixir--karakals",
+          "name": "Karakals",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--kav-verhouzer-de-hofnar-presents-eurodance",
+          "name": "Kav Verhouzer & de Hofnar presents: Eurodance",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--lennert-wolfs",
+          "name": "Lennert Wolfs",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--michael-amani",
+          "name": "Michael Amani",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--michael-amani-friends",
+          "name": "Michael Amani & Friends",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--reeze",
+          "name": "Reeze",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--elixir--vikkstar",
+          "name": "Vikkstar",
+          "stage": "ELIXIR",
+          "hostedBy": "TEAM AMANI",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--cage--amalie",
+          "name": "Amalie",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--cage--amotik",
+          "name": "Amotik",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--cage--blasha-allatt",
+          "name": "Blasha & Allatt",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--cage--freddy-k",
+          "name": "Freddy K",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--cage--netty-hugo",
+          "name": "Netty Hugo",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--cage--quelza",
+          "name": "Quelza",
+          "stage": "CAGE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--benny-plays",
+          "name": "Benny Plays",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--d-guaetta-b2b-neon",
+          "name": "D. Guaetta b2b Neon",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--eme",
+          "name": "EME",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--hyalyte",
+          "name": "Hyalyte",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--kriss-reeve",
+          "name": "Kriss Reeve",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--mr-rewind",
+          "name": "Mr. Rewind",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--the-rave-cave--muze",
+          "name": "Muze",
+          "stage": "THE RAVE CAVE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--planaxis--anaya",
+          "name": "ANAYA",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--chuckie",
+          "name": "Chuckie",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--deorro",
+          "name": "Deorro",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--planaxis--laidback-luke",
+          "name": "Laidback Luke",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--okayval",
+          "name": "Okayval",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--olivex",
+          "name": "Olivex",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--quintino",
+          "name": "Quintino",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--planaxis--sick-individuals",
+          "name": "Sick individuals",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--superheroes",
+          "name": "Superheroes",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--thomas-gold",
+          "name": "Thomas Gold",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Psytrance"
+        },
+        {
+          "id": "sunday--planaxis--yves-v-b2b-stadiumx",
+          "name": "Yves V b2b StadiumX",
+          "stage": "PLANAXIS",
+          "hostedBy": "2010 - 2012 PRESENTS SUPER YOU & ME",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Progressive House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--alex-kennon",
+          "name": "Alex Kennon",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--bobbi-antonni",
+          "name": "Bobbi Antonni",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--cristiano-da-silva",
+          "name": "Cristiano Da Silva",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--delafino-luna-fino",
+          "name": "Delafino & Luna Fino",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--dominico",
+          "name": "Dominico",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--eli-rojas",
+          "name": "Eli Rojas",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--oriol-calvo",
+          "name": "Oriol Calvo",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--rayco-santos",
+          "name": "Rayco Santos",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--melodia-by-corona--valentin-huedo",
+          "name": "Valentín Huedo",
+          "stage": "MELODIA BY CORONA",
+          "hostedBy": "WITH LOVE FROM IBIZA",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Afro House"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--bella-claxton-b2b-paige-tomlinson",
+          "name": "Bella Claxton b2b Paige Tomlinson",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--hu",
+          "name": "HU",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--kyle-starkey",
+          "name": "Kyle Starkey",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--lisa-korver",
+          "name": "Lisa Korver",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--mendosa",
+          "name": "Mendosa",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--morgan-seatree",
+          "name": "Morgan Seatree",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--celestia-by-kucoin--newtone",
+          "name": "Newtone",
+          "stage": "CELESTIA BY KUCOIN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardcore"
+        },
+        {
+          "id": "sunday--atmosphere--adrian-mills",
+          "name": "Adrián Mills",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--alycia-bezgo-b2b-biianco",
+          "name": "Alycia Bezgo b2b Biianco",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--kobosil",
+          "name": "Kobosil",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--mirage",
+          "name": "Mirage",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--nikolina",
+          "name": "Nikolina",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--portex",
+          "name": "Portex",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--riana-holley",
+          "name": "Riana Holley",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--atmosphere--trym",
+          "name": "Trym",
+          "stage": "ATMOSPHERE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--core--benwal-b2b-labat",
+          "name": "Benwal b2b Labat",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--catalina",
+          "name": "Catalina",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--helena-lauwaert",
+          "name": "Helena Lauwaert",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--kellar",
+          "name": "Kellar",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--lammer",
+          "name": "Lammer",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--malugi",
+          "name": "Malugi",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--core--saidah",
+          "name": "Saidah",
+          "stage": "CORE",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "House"
+        },
+        {
+          "id": "sunday--crystal-garden--bhaskar",
+          "name": "Bhaskar",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--crystal-garden--brina-knauss",
+          "name": "Brina Knauss",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--crystal-garden--franc-fala-b2b-benja",
+          "name": "Franc Fala b2b Benja",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--crystal-garden--kevin-de-vries-b2b-meduza",
+          "name": "Kevin de Vries b2b Meduza",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--crystal-garden--like-mike",
+          "name": "Like Mike",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Big Room"
+        },
+        {
+          "id": "sunday--crystal-garden--mind-against",
+          "name": "Mind Against",
+          "stage": "CRYSTAL GARDEN",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Melodic Techno"
+        },
+        {
+          "id": "sunday--the-great-library--bassjackers",
+          "name": "Bassjackers",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--brennan-heart",
+          "name": "Brennan Heart",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--darren-styles",
+          "name": "Darren Styles",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--diego-miranda-b2b-jerry-davila",
+          "name": "Diego Miranda b2b Jerry Davila",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--kaaze",
+          "name": "Kaaze",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--lucca-van-damme",
+          "name": "Lucca van Damme",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--the-great-library--nervo",
+          "name": "NERVO",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "EDM"
+        },
+        {
+          "id": "sunday--the-great-library--nico-moreno",
+          "name": "Nico Moreno",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Techno"
+        },
+        {
+          "id": "sunday--the-great-library--paris-hilton",
+          "name": "Paris Hilton",
+          "stage": "THE GREAT LIBRARY",
+          "hostedBy": "SMASH THE HOUSE",
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--moose-bar--brian",
+          "name": "Brian",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--moose-bar--jan-v",
+          "name": "Jan V",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--moose-bar--mr-e",
+          "name": "Mr E.",
+          "stage": "MOOSE BAR",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--bassjackers",
+          "name": "Bassjackers",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--dj-f-r-a-n-k",
+          "name": "DJ F.R.A.N.K",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--dj-lex",
+          "name": "DJ Lex",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--the-criminal-sounds",
+          "name": "The Criminal Sounds",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--the-rocketman",
+          "name": "The Rocketman",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        },
+        {
+          "id": "sunday--house-of-fortune-by-jbl--tigerlily",
+          "name": "TIGERLILY",
+          "stage": "HOUSE OF FORTUNE BY JBL",
+          "hostedBy": null,
+          "day": "sunday",
+          "date": "2026-07-26",
+          "dayLabel": "Sonntag, 26. Juli",
+          "genre": "Hardstyle"
+        }
+      ]
+    }
+  },
+  "stages": [
+    "ATMOSPHERE",
+    "CAGE",
+    "CELESTIA BY KUCOIN",
+    "CORE",
+    "CRYSTAL GARDEN",
+    "ELIXIR",
+    "FREEDOM BY BUD",
+    "HOUSE OF FORTUNE BY JBL",
+    "MAINSTAGE",
+    "MELODIA BY CORONA",
+    "MOOSE BAR",
+    "PLANAXIS",
+    "THE GREAT LIBRARY",
+    "THE RAVE CAVE",
+    "THE ROSE GARDEN"
+  ],
+  "genres": [
+    "Afro House",
+    "Bass",
+    "Big Room",
+    "Brazilian Bass",
+    "Deep House",
+    "Drum & Bass",
+    "Dubstep",
+    "EDM",
+    "Future House",
+    "Hardcore",
+    "Hardstyle",
+    "House",
+    "Melodic Bass",
+    "Melodic Techno",
+    "Progressive House",
+    "Psytrance",
+    "Tech House",
+    "Techno",
+    "Trance",
+    "UK Bass"
+  ]
+}

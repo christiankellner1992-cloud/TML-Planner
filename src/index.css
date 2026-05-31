@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --color-tml-purple: #7b2cbf;
+  --color-tml-gold: #ffd60a;
+  --color-tml-dark: #0a0612;
+  --color-tml-card: #14101f;
+  --color-tml-border: #2a2040;
+}
+
+body {
+  @apply bg-tml-dark text-white font-sans antialiased min-h-screen;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-tml-purple/50 rounded-full;
+}
