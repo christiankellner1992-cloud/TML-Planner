@@ -1,14 +1,23 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import lineupData from '../data/lineup.json';
-import { readShareFromUrl } from '../utils/share';
+import {
+  buildShareUrl,
+  clearShareParamsFromUrl,
+  parseShareParams,
+  readShareFromUrl,
+} from '../utils/share';
+import { emptyTimetable, flattenTimetable } from '../utils/timetable';
 
 const STORAGE_KEY = 'tml-planner-w2';
+const USER_NAME_KEY = 'tml-planner-user-name';
 
-const emptyTimetable = () => ({
-  friday: [],
-  saturday: [],
-  sunday: [],
-});
+function loadUserName() {
+  try {
+    return localStorage.getItem(USER_NAME_KEY) || '';
+  } catch {
+    return '';
+  }
+}
 
 function loadFromStorage() {
   try {
@@ -18,43 +27,85 @@ function loadFromStorage() {
       return {
         timetable: { ...emptyTimetable(), ...parsed.timetable },
         youtubeCache: parsed.youtubeCache || {},
+        friendsTimetables: parsed.friendsTimetables || [],
       };
     }
   } catch (_) {}
-  return { timetable: emptyTimetable(), youtubeCache: {} };
+  return { timetable: emptyTimetable(), youtubeCache: {}, friendsTimetables: [] };
+}
+
+function createFriend(name, tracks) {
+  return {
+    id: `friend-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+    name: name.trim() || 'Unbekannt',
+    tracks: [...new Set(tracks)],
+    active: true,
+  };
 }
 
 export function usePlannerState() {
-  const shared = useMemo(() => readShareFromUrl(), []);
   const [activeDay, setActiveDay] = useState('friday');
   const [stageFilter, setStageFilter] = useState('');
   const [genreFilter, setGenreFilter] = useState('');
   const [search, setSearch] = useState('');
   const [view, setView] = useState('lineup');
   const [shareNotice, setShareNotice] = useState('');
+  const [friendNotice, setFriendNotice] = useState('');
+  const [friendLinkInput, setFriendLinkInput] = useState('');
+  const [userName, setUserName] = useState(loadUserName);
 
-  const [state, setState] = useState(() => {
-    if (shared) {
-      return {
-        timetable: shared.timetable,
-        youtubeCache: shared.youtubeCache,
-        fromShare: true,
-      };
-    }
-    const stored = loadFromStorage();
-    return { ...stored, fromShare: false };
-  });
+  const [state, setState] = useState(loadFromStorage);
 
-  const { timetable, youtubeCache } = state;
+  const { timetable, youtubeCache, friendsTimetables } = state;
+
+  const persist = useCallback((next) => {
+    setState((prev) => {
+      const merged = typeof next === 'function' ? next(prev) : { ...prev, ...next };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        timetable: merged.timetable,
+        youtubeCache: merged.youtubeCache,
+        friendsTimetables: merged.friendsTimetables,
+      }));
+      return merged;
+    });
+  }, []);
 
   useEffect(() => {
-    if (!state.fromShare) {
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify({ timetable, youtubeCache })
+    localStorage.setItem(USER_NAME_KEY, userName);
+  }, [userName]);
+
+  const addFriend = useCallback((name, tracks) => {
+    if (!tracks?.length) return false;
+
+    persist((prev) => {
+      const normalizedName = name.trim() || 'Unbekannt';
+      const existingIdx = prev.friendsTimetables.findIndex(
+        (f) => f.name.toLowerCase() === normalizedName.toLowerCase()
       );
+
+      const updated = createFriend(normalizedName, tracks);
+      let friends;
+      if (existingIdx >= 0) {
+        friends = [...prev.friendsTimetables];
+        friends[existingIdx] = { ...updated, id: friends[existingIdx].id, active: true };
+      } else {
+        friends = [...prev.friendsTimetables, updated];
+      }
+
+      return { ...prev, friendsTimetables: friends };
+    });
+    return true;
+  }, [persist]);
+
+  useEffect(() => {
+    const fromUrl = readShareFromUrl();
+    if (fromUrl?.tracks?.length) {
+      addFriend(fromUrl.name, fromUrl.tracks);
+      setFriendNotice(`${fromUrl.name} wurde zu deinen Freunden hinzugefügt.`);
+      clearShareParamsFromUrl();
+      setTimeout(() => setFriendNotice(''), 4000);
     }
-  }, [timetable, youtubeCache, state.fromShare]);
+  }, [addFriend]);
 
   const actById = useMemo(() => {
     const map = new Map();
@@ -70,7 +121,6 @@ export function usePlannerState() {
   );
 
   const dayActs = lineupData.days[activeDay]?.acts || [];
-
   const isGlobalSearch = Boolean(search.trim());
 
   const filteredActs = useMemo(() => {
@@ -90,10 +140,23 @@ export function usePlannerState() {
     return acts;
   }, [dayActs, allActs, isGlobalSearch, stageFilter, genreFilter, search]);
 
+  const activeFriends = useMemo(
+    () => friendsTimetables.filter((f) => f.active),
+    [friendsTimetables]
+  );
+
+  const getFriendOverlaps = useCallback(
+    (actId) =>
+      activeFriends
+        .filter((f) => f.tracks.includes(actId))
+        .map((f) => f.name),
+    [activeFriends]
+  );
+
   const toggleTimetable = useCallback(
     (actId) => {
       const dayKey = actById.get(actId)?.day || activeDay;
-      setState((prev) => {
+      persist((prev) => {
         const dayIds = [...prev.timetable[dayKey]];
         const idx = dayIds.indexOf(actId);
         if (idx >= 0) dayIds.splice(idx, 1);
@@ -104,15 +167,18 @@ export function usePlannerState() {
         };
       });
     },
-    [activeDay, actById]
+    [activeDay, actById, persist]
   );
 
-  const setYoutubeResult = useCallback((actId, result) => {
-    setState((prev) => ({
-      ...prev,
-      youtubeCache: { ...prev.youtubeCache, [actId]: result },
-    }));
-  }, []);
+  const setYoutubeResult = useCallback(
+    (actId, result) => {
+      persist((prev) => ({
+        ...prev,
+        youtubeCache: { ...prev.youtubeCache, [actId]: result },
+      }));
+    },
+    [persist]
+  );
 
   const isInTimetable = useCallback(
     (actId) => {
@@ -122,12 +188,53 @@ export function usePlannerState() {
     [timetable, activeDay, actById]
   );
 
-  const copyShareLink = useCallback(async (buildShareUrl) => {
-    const url = buildShareUrl(timetable, youtubeCache);
+  const copyShareLink = useCallback(async () => {
+    const tracks = flattenTimetable(timetable);
+    if (!tracks.length) {
+      setShareNotice('Timetable ist leer — wähle zuerst Acts aus.');
+      setTimeout(() => setShareNotice(''), 3000);
+      return;
+    }
+    const url = buildShareUrl(userName, tracks);
     await navigator.clipboard.writeText(url);
-    setShareNotice('Link kopiert!');
+    setShareNotice('Share-Link kopiert!');
     setTimeout(() => setShareNotice(''), 3000);
-  }, [timetable, youtubeCache]);
+  }, [timetable, userName]);
+
+  const addFriendFromLink = useCallback(() => {
+    const parsed = parseShareParams(friendLinkInput);
+    if (!parsed?.tracks?.length) {
+      setFriendNotice('Ungültiger Link — erwartet ?name=…&tracks=…');
+      setTimeout(() => setFriendNotice(''), 3000);
+      return;
+    }
+    addFriend(parsed.name, parsed.tracks);
+    setFriendLinkInput('');
+    setFriendNotice(`${parsed.name} hinzugefügt (${parsed.tracks.length} Acts).`);
+    setTimeout(() => setFriendNotice(''), 3000);
+  }, [friendLinkInput, addFriend]);
+
+  const toggleFriendActive = useCallback(
+    (friendId) => {
+      persist((prev) => ({
+        ...prev,
+        friendsTimetables: prev.friendsTimetables.map((f) =>
+          f.id === friendId ? { ...f, active: !f.active } : f
+        ),
+      }));
+    },
+    [persist]
+  );
+
+  const removeFriend = useCallback(
+    (friendId) => {
+      persist((prev) => ({
+        ...prev,
+        friendsTimetables: prev.friendsTimetables.filter((f) => f.id !== friendId),
+      }));
+    },
+    [persist]
+  );
 
   return {
     lineupData,
@@ -142,8 +249,15 @@ export function usePlannerState() {
     view,
     setView,
     shareNotice,
+    friendNotice,
+    friendLinkInput,
+    setFriendLinkInput,
+    userName,
+    setUserName,
     timetable,
     youtubeCache,
+    friendsTimetables,
+    activeFriends,
     filteredActs,
     isGlobalSearch,
     dayActs,
@@ -153,6 +267,9 @@ export function usePlannerState() {
     isInTimetable,
     setYoutubeResult,
     copyShareLink,
-    fromShare: state.fromShare,
+    addFriendFromLink,
+    toggleFriendActive,
+    removeFriend,
+    getFriendOverlaps,
   };
 }

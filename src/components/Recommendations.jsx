@@ -9,6 +9,7 @@ export default function Recommendations({
   onToggle,
   youtubeCache,
   onYoutubeResult,
+  getFriendOverlaps = () => [],
 }) {
   const recs = getRecommendations(allActs, selectedIds);
 
@@ -64,6 +65,7 @@ export default function Recommendations({
               onToggle={onToggle}
               youtubeCache={youtubeCache}
               onYoutubeResult={onYoutubeResult}
+              friendOverlap={getFriendOverlaps(act.id)}
               compact
               showYoutube={false}
             />

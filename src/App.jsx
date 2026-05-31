@@ -1,17 +1,22 @@
-import { useCallback } from 'react';
-import { CalendarDays, LayoutList, Share2, Sparkles } from 'lucide-react';
+import { CalendarDays, LayoutList, Share2, Sparkles, User } from 'lucide-react';
 import ActCard from './components/ActCard';
 import Filters from './components/Filters';
+import FriendsCompare from './components/FriendsCompare';
 import MyTimetable from './components/MyTimetable';
 import Recommendations from './components/Recommendations';
 import { usePlannerState } from './hooks/usePlannerState';
-import { buildShareUrl } from './utils/share';
 
 const DAY_TABS = [
   { id: 'friday', label: 'Freitag, 24. Juli' },
   { id: 'saturday', label: 'Samstag, 25. Juli' },
   { id: 'sunday', label: 'Sonntag, 26. Juli' },
 ];
+
+function ActCardWithOverlap({ act, getFriendOverlaps, ...props }) {
+  return (
+    <ActCard act={act} friendOverlap={getFriendOverlaps(act.id)} {...props} />
+  );
+}
 
 export default function App() {
   const {
@@ -27,8 +32,15 @@ export default function App() {
     view,
     setView,
     shareNotice,
+    friendNotice,
+    friendLinkInput,
+    setFriendLinkInput,
+    userName,
+    setUserName,
     timetable,
     youtubeCache,
+    friendsTimetables,
+    activeFriends,
     filteredActs,
     isGlobalSearch,
     actById,
@@ -36,16 +48,23 @@ export default function App() {
     isInTimetable,
     setYoutubeResult,
     copyShareLink,
-    fromShare,
+    addFriendFromLink,
+    toggleFriendActive,
+    removeFriend,
+    getFriendOverlaps,
   } = usePlannerState();
-
-  const handleShare = useCallback(() => {
-    copyShareLink(buildShareUrl);
-  }, [copyShareLink]);
 
   const selectedIds = timetable[activeDay] || [];
   const totalSelected =
     timetable.friday.length + timetable.saturday.length + timetable.sunday.length;
+
+  const cardProps = {
+    inTimetable: isInTimetable,
+    onToggle: toggleTimetable,
+    youtubeCache,
+    onYoutubeResult: setYoutubeResult,
+    getFriendOverlaps,
+  };
 
   const resetFilters = () => {
     setStageFilter('');
@@ -67,11 +86,27 @@ export default function App() {
                 Festival Planner
               </h1>
               <p className="text-white/40 text-sm mt-1">
-                {lineupData.meta.totalActs} Acts · {lineupData.stages.length} Stages · Live-Daten
-                vom {new Date(lineupData.meta.scrapedAt).toLocaleDateString('de-DE')}
+                {lineupData.meta.totalActs} Acts · {lineupData.stages.length} Stages
+                {activeFriends.length > 0 && (
+                  <> · {activeFriends.length} Freund(e) im Vergleich</>
+                )}
               </p>
             </div>
-            <div className="flex flex-wrap gap-2">
+
+            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2">
+              <label className="flex items-center gap-2 px-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm">
+                <User className="w-4 h-4 text-white/40 shrink-0" />
+                <span className="text-white/50 shrink-0">Dein Name</span>
+                <input
+                  type="text"
+                  value={userName}
+                  onChange={(e) => setUserName(e.target.value)}
+                  placeholder="z.B. Alex"
+                  maxLength={40}
+                  className="bg-transparent border-none outline-none min-w-[100px] text-white placeholder:text-white/30"
+                />
+              </label>
+
               <button
                 type="button"
                 onClick={() => setView('lineup')}
@@ -98,26 +133,30 @@ export default function App() {
               </button>
               <button
                 type="button"
-                onClick={handleShare}
+                onClick={copyShareLink}
                 className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-white/10 hover:bg-tml-gold/20 border border-tml-gold/30"
               >
                 <Share2 className="w-4 h-4" />
-                Link teilen
+                Share-Link kopieren
               </button>
             </div>
           </div>
 
-          {fromShare && (
-            <p className="mt-3 text-sm text-tml-gold bg-tml-gold/10 rounded-lg px-3 py-2 inline-flex items-center gap-2">
-              <Share2 className="w-4 h-4" />
-              Geteilter Plan geladen — Timetable & YouTube-Links inklusive
-            </p>
-          )}
           {shareNotice && <p className="mt-2 text-sm text-green-400">{shareNotice}</p>}
         </div>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6">
+        <FriendsCompare
+          friends={friendsTimetables}
+          friendLinkInput={friendLinkInput}
+          onLinkInputChange={setFriendLinkInput}
+          onAddFriend={addFriendFromLink}
+          onToggleActive={toggleFriendActive}
+          onRemoveFriend={removeFriend}
+          notice={friendNotice}
+        />
+
         {view === 'lineup' ? (
           <>
             <nav className="flex flex-wrap gap-2 mb-6">
@@ -165,6 +204,12 @@ export default function App() {
                       {lineupData.days[activeDay].acts.length} Acts
                     </>
                   )}
+                  {activeFriends.length > 0 && (
+                    <span className="text-orange-300/80">
+                      {' '}
+                      · Orange = Überschneidung mit Freunden
+                    </span>
+                  )}
                 </p>
 
                 {isGlobalSearch ? (
@@ -182,13 +227,10 @@ export default function App() {
                           </h2>
                           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                             {dayResults.map((act) => (
-                              <ActCard
+                              <ActCardWithOverlap
                                 key={act.id}
                                 act={act}
-                                inTimetable={isInTimetable(act.id)}
-                                onToggle={toggleTimetable}
-                                youtubeCache={youtubeCache}
-                                onYoutubeResult={setYoutubeResult}
+                                {...cardProps}
                               />
                             ))}
                           </div>
@@ -199,14 +241,7 @@ export default function App() {
                 ) : (
                   <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                     {filteredActs.map((act) => (
-                      <ActCard
-                        key={act.id}
-                        act={act}
-                        inTimetable={isInTimetable(act.id)}
-                        onToggle={toggleTimetable}
-                        youtubeCache={youtubeCache}
-                        onYoutubeResult={setYoutubeResult}
-                      />
+                      <ActCardWithOverlap key={act.id} act={act} {...cardProps} />
                     ))}
                   </div>
                 )}
@@ -227,6 +262,7 @@ export default function App() {
                 onToggle={toggleTimetable}
                 youtubeCache={youtubeCache}
                 onYoutubeResult={setYoutubeResult}
+                getFriendOverlaps={getFriendOverlaps}
               />
             </div>
           </>
@@ -245,24 +281,13 @@ export default function App() {
             }}
             youtubeCache={youtubeCache}
             onYoutubeResult={setYoutubeResult}
+            getFriendOverlaps={getFriendOverlaps}
           />
         )}
       </main>
 
       <footer className="border-t border-tml-border mt-12 py-6 text-center text-xs text-white/30">
-        Daten von{' '}
-        <a
-          href={lineupData.meta.source}
-          className="text-tml-purple hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tomorrowland.com
-        </a>
-        {' · '}
-        <code className="text-white/50">npm run scrape</code>
-        {' · '}
-        YouTube via <code className="text-white/50">.env.local</code>
+        Share-Format: <code className="text-white/50">?name=DeinName&tracks=id1,id2,…</code>
       </footer>
     </div>
   );

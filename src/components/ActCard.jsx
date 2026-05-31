@@ -7,15 +7,20 @@ export default function ActCard({
   onToggle,
   youtubeCache,
   onYoutubeResult,
+  friendOverlap = [],
   compact = false,
   showYoutube = true,
 }) {
+  const hasFriendOverlap = friendOverlap.length > 0;
+
   return (
     <article
       className={`rounded-xl border transition-all ${
-        inTimetable
-          ? 'border-tml-gold/60 bg-tml-gold/10 shadow-lg shadow-tml-gold/5'
-          : 'border-tml-border bg-tml-card hover:border-tml-purple/50'
+        hasFriendOverlap
+          ? 'border-2 border-orange-400/80 bg-gradient-to-br from-orange-500/10 to-tml-card shadow-lg shadow-orange-500/25 ring-1 ring-orange-400/30'
+          : inTimetable
+            ? 'border-tml-gold/60 bg-tml-gold/10 shadow-lg shadow-tml-gold/5'
+            : 'border-tml-border bg-tml-card hover:border-tml-purple/50'
       } ${compact ? 'p-3' : 'p-4'}`}
     >
       <div className="flex items-start justify-between gap-2">
@@ -34,6 +39,11 @@ export default function ActCard({
             <Music2 className="w-3 h-3" />
             {act.genre}
           </span>
+          {hasFriendOverlap && (
+            <p className="mt-2 text-[11px] font-medium text-orange-300 leading-snug">
+              🔥 Auch bei: {friendOverlap.join(', ')}
+            </p>
+          )}
         </div>
         <button
           type="button"

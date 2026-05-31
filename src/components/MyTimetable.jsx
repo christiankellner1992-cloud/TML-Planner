@@ -10,6 +10,7 @@ export default function MyTimetable({
   onToggle,
   youtubeCache,
   onYoutubeResult,
+  getFriendOverlaps = () => [],
 }) {
   const total =
     timetable.friday.length + timetable.saturday.length + timetable.sunday.length;
@@ -42,6 +43,7 @@ export default function MyTimetable({
                     onToggle={() => onToggle(id)}
                     youtubeCache={youtubeCache}
                     onYoutubeResult={onYoutubeResult}
+                    friendOverlap={getFriendOverlaps(id)}
                   />
                 );
               })}

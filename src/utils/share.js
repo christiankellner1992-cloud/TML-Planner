@@ -1,54 +1,87 @@
-const SHARE_PARAM = 'plan';
+import { flattenTimetable } from './timetable';
+
+const LEGACY_PLAN_PARAM = 'plan';
 
 /**
- * @typedef {{ friday: string[], saturday: string[], sunday: string[] }} TimetableIds
- * @typedef {Record<string, import('./youtube.js').YoutubeResult>} YoutubeCache
+ * @param {string} userName
+ * @param {string[]} trackIds
  */
-
-/**
- * @param {TimetableIds} timetable
- * @param {YoutubeCache} youtubeCache
- */
-export function encodeShareState(timetable, youtubeCache = {}) {
-  const payload = { t: timetable, y: youtubeCache };
-  const json = JSON.stringify(payload);
-  const b64 = btoa(unescape(encodeURIComponent(json)));
-  return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+export function buildShareUrl(userName, trackIds) {
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set('name', userName.trim() || 'Gast');
+  url.searchParams.set('tracks', trackIds.join(','));
+  return url.toString();
 }
 
-export function decodeShareState(encoded) {
-  if (!encoded) return null;
+/**
+ * Parst Share-Parameter aus URL, Query-String oder eingefügtem Link.
+ * @returns {{ name: string, tracks: string[] } | null}
+ */
+export function parseShareParams(input) {
+  if (!input?.trim()) return null;
+
+  try {
+    let params;
+    const trimmed = input.trim();
+
+    if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+      params = new URL(trimmed).searchParams;
+    } else if (trimmed.includes('name=') || trimmed.includes('tracks=')) {
+      const qs = trimmed.startsWith('?') ? trimmed.slice(1) : trimmed;
+      params = new URLSearchParams(qs);
+    } else {
+      return null;
+    }
+
+    const name = params.get('name');
+    const tracksRaw = params.get('tracks');
+
+    if (name && tracksRaw) {
+      return {
+        name: decodeURIComponent(name),
+        tracks: tracksRaw.split(',').map((id) => id.trim()).filter(Boolean),
+      };
+    }
+
+    const legacy = params.get(LEGACY_PLAN_PARAM);
+    if (legacy) {
+      const decoded = decodeLegacyPlan(legacy);
+      if (decoded?.tracks?.length) {
+        return { name: 'Import', tracks: decoded.tracks };
+      }
+    }
+  } catch {
+    return null;
+  }
+
+  return null;
+}
+
+function decodeLegacyPlan(encoded) {
   try {
     let b64 = encoded.replace(/-/g, '+').replace(/_/g, '/');
     while (b64.length % 4) b64 += '=';
     const json = decodeURIComponent(escape(atob(b64)));
     const data = JSON.parse(json);
     if (!data?.t) return null;
-    return {
-      timetable: {
-        friday: data.t.friday || [],
-        saturday: data.t.saturday || [],
-        sunday: data.t.sunday || [],
-      },
-      youtubeCache: data.y || {},
+    const timetable = {
+      friday: data.t.friday || [],
+      saturday: data.t.saturday || [],
+      sunday: data.t.sunday || [],
     };
+    return { tracks: flattenTimetable(timetable) };
   } catch {
     return null;
   }
 }
 
-export function buildShareUrl(timetable, youtubeCache) {
-  const encoded = encodeShareState(timetable, youtubeCache);
+/** Liest ?name=&tracks= aus der aktuellen Browser-URL */
+export function readShareFromUrl() {
+  return parseShareParams(window.location.search);
+}
+
+export function clearShareParamsFromUrl() {
   const url = new URL(window.location.href);
   url.search = '';
-  url.searchParams.set(SHARE_PARAM, encoded);
-  return url.toString();
+  window.history.replaceState({}, '', url.pathname + url.hash);
 }
-
-export function readShareFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const encoded = params.get(SHARE_PARAM);
-  return decodeShareState(encoded);
-}
-
-export { SHARE_PARAM };
