@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useDeferredValue, useEffect, useMemo, useState } from 'react';
 import lineupData from '../data/lineup.json';
 import {
   buildShareUrl,
@@ -6,6 +6,7 @@ import {
   parseShareParams,
   readShareFromUrl,
 } from '../utils/share';
+import { getDayLabel } from '../constants/days';
 import { actMatchesGenre, actMatchesGenreSearch } from '../utils/genre';
 import { emptyTimetable, flattenTimetable } from '../utils/timetable';
 
@@ -38,7 +39,7 @@ function loadFromStorage() {
 function createFriend(name, tracks) {
   return {
     id: `friend-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
-    name: name.trim() || 'Unbekannt',
+    name: name.trim() || 'Unknown',
     tracks: [...new Set(tracks)],
     active: true,
   };
@@ -50,7 +51,8 @@ export function usePlannerState() {
   const [genreFilter, setGenreFilter] = useState('');
   const [search, setSearch] = useState('');
   const [view, setView] = useState('lineup');
-  const [focusedActId, setFocusedActId] = useState(null);
+  /** Preview for AI sidebar only — does not add to timetable */
+  const [selectedActForRecommendations, setSelectedActForRecommendations] = useState(null);
   const [shareNotice, setShareNotice] = useState('');
   const [friendNotice, setFriendNotice] = useState('');
   const [friendLinkInput, setFriendLinkInput] = useState('');
@@ -60,14 +62,19 @@ export function usePlannerState() {
 
   const { timetable, youtubeCache, friendsTimetables } = state;
 
+  const deferredSearch = useDeferredValue(search);
+
   const persist = useCallback((next) => {
     setState((prev) => {
       const merged = typeof next === 'function' ? next(prev) : { ...prev, ...next };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        timetable: merged.timetable,
-        youtubeCache: merged.youtubeCache,
-        friendsTimetables: merged.friendsTimetables,
-      }));
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({
+          timetable: merged.timetable,
+          youtubeCache: merged.youtubeCache,
+          friendsTimetables: merged.friendsTimetables,
+        })
+      );
       return merged;
     });
   }, []);
@@ -80,7 +87,7 @@ export function usePlannerState() {
     if (!tracks?.length) return false;
 
     persist((prev) => {
-      const normalizedName = name.trim() || 'Unbekannt';
+      const normalizedName = name.trim() || 'Unknown';
       const existingIdx = prev.friendsTimetables.findIndex(
         (f) => f.name.toLowerCase() === normalizedName.toLowerCase()
       );
@@ -103,7 +110,7 @@ export function usePlannerState() {
     const fromUrl = readShareFromUrl();
     if (fromUrl?.tracks?.length) {
       addFriend(fromUrl.name, fromUrl.tracks);
-      setFriendNotice(`${fromUrl.name} wurde zu deinen Freunden hinzugefügt.`);
+      setFriendNotice(`${fromUrl.name} was added to your friends list.`);
       clearShareParamsFromUrl();
       setTimeout(() => setFriendNotice(''), 4000);
     }
@@ -123,24 +130,33 @@ export function usePlannerState() {
   );
 
   const dayActs = lineupData.days[activeDay]?.acts || [];
-  const isGlobalSearch = Boolean(search.trim());
+  const isGlobalSearch = Boolean(deferredSearch.trim());
 
   const filteredActs = useMemo(() => {
     let acts = isGlobalSearch ? allActs : dayActs;
     if (stageFilter) acts = acts.filter((a) => a.stage === stageFilter);
     if (genreFilter) acts = acts.filter((a) => actMatchesGenre(a, genreFilter));
     if (isGlobalSearch) {
-      const q = search.toLowerCase().trim();
+      const q = deferredSearch.toLowerCase().trim();
       acts = acts.filter(
         (a) =>
           a.name.toLowerCase().includes(q) ||
           a.stage.toLowerCase().includes(q) ||
           actMatchesGenreSearch(a, q) ||
-          a.dayLabel.toLowerCase().includes(q)
+          a.dayLabel.toLowerCase().includes(q) ||
+          getDayLabel(a.day).toLowerCase().includes(q)
       );
     }
     return acts;
-  }, [dayActs, allActs, isGlobalSearch, stageFilter, genreFilter, search]);
+  }, [dayActs, allActs, isGlobalSearch, stageFilter, genreFilter, deferredSearch]);
+
+  const myTimetableIdSet = useMemo(() => {
+    const set = new Set();
+    for (const ids of Object.values(timetable)) {
+      for (const id of ids) set.add(id);
+    }
+    return set;
+  }, [timetable]);
 
   const activeFriends = useMemo(
     () => friendsTimetables.filter((f) => f.active),
@@ -182,37 +198,34 @@ export function usePlannerState() {
     [persist]
   );
 
-  const isInTimetable = useCallback(
-    (actId) => {
-      const dayKey = actById.get(actId)?.day || activeDay;
-      return timetable[dayKey]?.includes(actId);
-    },
-    [timetable, activeDay, actById]
+  const isInMyTimetable = useCallback(
+    (actId) => myTimetableIdSet.has(actId),
+    [myTimetableIdSet]
   );
 
   const copyShareLink = useCallback(async () => {
     const tracks = flattenTimetable(timetable);
     if (!tracks.length) {
-      setShareNotice('Timetable ist leer — wähle zuerst Acts aus.');
+      setShareNotice('Your timetable is empty — add some acts first.');
       setTimeout(() => setShareNotice(''), 3000);
       return;
     }
     const url = buildShareUrl(userName, tracks);
     await navigator.clipboard.writeText(url);
-    setShareNotice('Share-Link kopiert!');
+    setShareNotice('Share link copied!');
     setTimeout(() => setShareNotice(''), 3000);
   }, [timetable, userName]);
 
   const addFriendFromLink = useCallback(() => {
     const parsed = parseShareParams(friendLinkInput);
     if (!parsed?.tracks?.length) {
-      setFriendNotice('Ungültiger Link — erwartet ?name=…&tracks=…');
+      setFriendNotice('Invalid link — expected ?name=…&tracks=…');
       setTimeout(() => setFriendNotice(''), 3000);
       return;
     }
     addFriend(parsed.name, parsed.tracks);
     setFriendLinkInput('');
-    setFriendNotice(`${parsed.name} hinzugefügt (${parsed.tracks.length} Acts).`);
+    setFriendNotice(`${parsed.name} added (${parsed.tracks.length} acts).`);
     setTimeout(() => setFriendNotice(''), 3000);
   }, [friendLinkInput, addFriend]);
 
@@ -238,17 +251,19 @@ export function usePlannerState() {
     [persist]
   );
 
-  const focusedAct = focusedActId ? actById.get(focusedActId) ?? null : null;
+  const selectedAct = selectedActForRecommendations
+    ? actById.get(selectedActForRecommendations) ?? null
+    : null;
 
   const recommendationActs = useMemo(() => {
-    if (focusedAct?.day) {
-      return lineupData.days[focusedAct.day]?.acts || [];
+    if (selectedAct?.day) {
+      return lineupData.days[selectedAct.day]?.acts || [];
     }
     return lineupData.days[activeDay]?.acts || [];
-  }, [focusedAct, activeDay, lineupData.days]);
+  }, [selectedAct, activeDay]);
 
-  const focusAct = useCallback((actId) => {
-    setFocusedActId(actId);
+  const selectActForRecommendations = useCallback((actId) => {
+    setSelectedActForRecommendations(actId);
   }, []);
 
   return {
@@ -261,6 +276,7 @@ export function usePlannerState() {
     setGenreFilter,
     search,
     setSearch,
+    isSearchPending: search !== deferredSearch,
     view,
     setView,
     shareNotice,
@@ -269,7 +285,7 @@ export function usePlannerState() {
     setFriendLinkInput,
     userName,
     setUserName,
-    timetable,
+    myTimetable: timetable,
     youtubeCache,
     friendsTimetables,
     activeFriends,
@@ -279,16 +295,16 @@ export function usePlannerState() {
     allActs,
     actById,
     toggleTimetable,
-    isInTimetable,
+    isInMyTimetable,
     setYoutubeResult,
     copyShareLink,
     addFriendFromLink,
     toggleFriendActive,
     removeFriend,
     getFriendOverlaps,
-    focusedActId,
-    focusedAct,
-    focusAct,
+    selectedActForRecommendations,
+    selectedAct,
+    selectActForRecommendations,
     recommendationActs,
   };
 }

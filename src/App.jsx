@@ -1,31 +1,33 @@
+import { useMemo } from 'react';
 import { CalendarDays, LayoutList, Share2, Sparkles, User } from 'lucide-react';
 import ActCard from './components/ActCard';
 import Filters from './components/Filters';
 import FriendsCompare from './components/FriendsCompare';
 import MyTimetable from './components/MyTimetable';
 import Recommendations from './components/Recommendations';
+import { DAY_TABS } from './constants/days';
 import { usePlannerState } from './hooks/usePlannerState';
-
-const DAY_TABS = [
-  { id: 'friday', label: 'Freitag, 24. Juli' },
-  { id: 'saturday', label: 'Samstag, 25. Juli' },
-  { id: 'sunday', label: 'Sonntag, 26. Juli' },
-];
 
 function ActCardWithOverlap({
   act,
   getFriendOverlaps,
-  focusedActId,
-  focusAct,
-  ...props
+  selectedActForRecommendations,
+  selectActForRecommendations,
+  isInMyTimetable,
+  onToggle,
+  youtubeCache,
+  onYoutubeResult,
 }) {
   return (
     <ActCard
       act={act}
       friendOverlap={getFriendOverlaps(act.id)}
-      onSelect={focusAct}
-      isFocused={act.id === focusedActId}
-      {...props}
+      inTimetable={isInMyTimetable(act.id)}
+      onToggle={onToggle}
+      onSelect={selectActForRecommendations}
+      isPreviewSelected={act.id === selectedActForRecommendations}
+      youtubeCache={youtubeCache}
+      onYoutubeResult={onYoutubeResult}
     />
   );
 }
@@ -41,6 +43,7 @@ export default function App() {
     setGenreFilter,
     search,
     setSearch,
+    isSearchPending,
     view,
     setView,
     shareNotice,
@@ -49,7 +52,7 @@ export default function App() {
     setFriendLinkInput,
     userName,
     setUserName,
-    timetable,
+    myTimetable,
     youtubeCache,
     friendsTimetables,
     activeFriends,
@@ -57,44 +60,47 @@ export default function App() {
     isGlobalSearch,
     actById,
     toggleTimetable,
-    isInTimetable,
+    isInMyTimetable,
     setYoutubeResult,
     copyShareLink,
     addFriendFromLink,
     toggleFriendActive,
     removeFriend,
     getFriendOverlaps,
-    focusedActId,
-    focusedAct,
-    focusAct,
+    selectedActForRecommendations,
+    selectedAct,
+    selectActForRecommendations,
     recommendationActs,
   } = usePlannerState();
 
   const totalSelected =
-    timetable.friday.length + timetable.saturday.length + timetable.sunday.length;
+    myTimetable.friday.length + myTimetable.saturday.length + myTimetable.sunday.length;
 
-  const cardProps = {
-    inTimetable: isInTimetable,
-    onToggle: toggleTimetable,
-    youtubeCache,
-    onYoutubeResult: setYoutubeResult,
-    getFriendOverlaps,
-    focusedActId,
-    focusAct,
-  };
-
-  const recommendationsPanel = (
-    <Recommendations
-      allActs={recommendationActs}
-      focusedAct={focusedAct}
-      focusAct={focusAct}
-      focusedActId={focusedActId}
-      isInTimetable={isInTimetable}
-      onToggle={toggleTimetable}
-      youtubeCache={youtubeCache}
-      onYoutubeResult={setYoutubeResult}
-      getFriendOverlaps={getFriendOverlaps}
-    />
+  const recommendationsPanel = useMemo(
+    () => (
+      <Recommendations
+        allActs={recommendationActs}
+        selectedAct={selectedAct}
+        selectActForRecommendations={selectActForRecommendations}
+        selectedActForRecommendations={selectedActForRecommendations}
+        isInMyTimetable={isInMyTimetable}
+        onToggle={toggleTimetable}
+        youtubeCache={youtubeCache}
+        onYoutubeResult={setYoutubeResult}
+        getFriendOverlaps={getFriendOverlaps}
+      />
+    ),
+    [
+      recommendationActs,
+      selectedAct,
+      selectActForRecommendations,
+      selectedActForRecommendations,
+      isInMyTimetable,
+      toggleTimetable,
+      youtubeCache,
+      setYoutubeResult,
+      getFriendOverlaps,
+    ]
   );
 
   const resetFilters = () => {
@@ -119,7 +125,7 @@ export default function App() {
               <p className="text-white/40 text-sm mt-1">
                 {lineupData.meta.totalActs} Acts · {lineupData.stages.length} Stages
                 {activeFriends.length > 0 && (
-                  <> · {activeFriends.length} Freund(e) im Vergleich</>
+                  <> · {activeFriends.length} friend(s) in comparison</>
                 )}
               </p>
             </div>
@@ -127,12 +133,12 @@ export default function App() {
             <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2">
               <label className="flex items-center gap-2 px-3 py-2 rounded-lg bg-tml-card border border-tml-border text-sm">
                 <User className="w-4 h-4 text-white/40 shrink-0" />
-                <span className="text-white/50 shrink-0">Dein Name</span>
+                <span className="text-white/50 shrink-0">Your name</span>
                 <input
                   type="text"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
-                  placeholder="z.B. Alex"
+                  placeholder="e.g. Alex"
                   maxLength={40}
                   className="bg-transparent border-none outline-none min-w-[100px] text-white placeholder:text-white/30"
                 />
@@ -148,7 +154,7 @@ export default function App() {
                 }`}
               >
                 <LayoutList className="w-4 h-4" />
-                Line-Up
+                Lineup
               </button>
               <button
                 type="button"
@@ -160,7 +166,7 @@ export default function App() {
                 }`}
               >
                 <CalendarDays className="w-4 h-4" />
-                Mein Timetable ({totalSelected})
+                My timetable ({totalSelected})
               </button>
               <button
                 type="button"
@@ -168,7 +174,7 @@ export default function App() {
                 className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-white/10 hover:bg-tml-gold/20 border border-tml-gold/30"
               >
                 <Share2 className="w-4 h-4" />
-                Share-Link kopieren
+                Copy share link
               </button>
             </div>
           </div>
@@ -214,6 +220,7 @@ export default function App() {
                 stageFilter={stageFilter}
                 genreFilter={genreFilter}
                 search={search}
+                isSearchPending={isSearchPending}
                 onStageChange={setStageFilter}
                 onGenreChange={setGenreFilter}
                 onSearchChange={setSearch}
@@ -226,24 +233,25 @@ export default function App() {
                 <p className="text-sm text-white/50 mb-4">
                   {isGlobalSearch ? (
                     <>
-                      {filteredActs.length} Treffer über alle 3 Tage
-                      {stageFilter || genreFilter ? ' (gefiltert)' : ''}
+                      {filteredActs.length} results across all 3 days
+                      {stageFilter || genreFilter ? ' (filtered)' : ''}
+                      {isSearchPending ? ' …' : ''}
                     </>
                   ) : (
                     <>
-                      {filteredActs.length} von{' '}
+                      {filteredActs.length} of{' '}
                       {lineupData.days[activeDay].acts.length} Acts
                     </>
                   )}
                   {activeFriends.length > 0 && (
                     <span className="text-orange-300/80">
                       {' '}
-                      · Orange = Überschneidung mit Freunden
+                      · Orange = overlap with friends
                     </span>
                   )}
                   <span className="text-tml-purple/80">
                     {' '}
-                    · Kachel anklicken = KI-Empfehlungen
+                    · Purple border = preview · Yellow check = in timetable
                   </span>
                 </p>
 
@@ -265,7 +273,13 @@ export default function App() {
                               <ActCardWithOverlap
                                 key={act.id}
                                 act={act}
-                                {...cardProps}
+                                getFriendOverlaps={getFriendOverlaps}
+                                selectedActForRecommendations={selectedActForRecommendations}
+                                selectActForRecommendations={selectActForRecommendations}
+                                isInMyTimetable={isInMyTimetable}
+                                onToggle={toggleTimetable}
+                                youtubeCache={youtubeCache}
+                                onYoutubeResult={setYoutubeResult}
                               />
                             ))}
                           </div>
@@ -276,16 +290,26 @@ export default function App() {
                 ) : (
                   <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                     {filteredActs.map((act) => (
-                      <ActCardWithOverlap key={act.id} act={act} {...cardProps} />
+                      <ActCardWithOverlap
+                        key={act.id}
+                        act={act}
+                        getFriendOverlaps={getFriendOverlaps}
+                        selectedActForRecommendations={selectedActForRecommendations}
+                        selectActForRecommendations={selectActForRecommendations}
+                        isInMyTimetable={isInMyTimetable}
+                        onToggle={toggleTimetable}
+                        youtubeCache={youtubeCache}
+                        onYoutubeResult={setYoutubeResult}
+                      />
                     ))}
                   </div>
                 )}
 
-                {filteredActs.length === 0 && (
+                {filteredActs.length === 0 && !isSearchPending && (
                   <p className="text-center py-12 text-white/40">
                     {isGlobalSearch
-                      ? 'Keine Acts an allen 3 Tagen gefunden.'
-                      : 'Keine Acts für diese Filter gefunden.'}
+                      ? 'No acts found across all 3 days.'
+                      : 'No acts match these filters.'}
                   </p>
                 )}
               </section>
@@ -296,19 +320,12 @@ export default function App() {
         ) : (
           <div className="grid lg:grid-cols-[1fr_320px] gap-6">
             <MyTimetable
-              lineupData={lineupData}
-              timetable={timetable}
+              myTimetable={myTimetable}
               actById={actById}
-              isInTimetable={() => true}
-              onSelect={focusAct}
-              focusedActId={focusedActId}
-              onToggle={(id) => {
-                const act = actById.get(id);
-                if (act) {
-                  setActiveDay(act.day);
-                  toggleTimetable(id);
-                }
-              }}
+              isInMyTimetable={isInMyTimetable}
+              onSelect={selectActForRecommendations}
+              selectedActForRecommendations={selectedActForRecommendations}
+              onToggle={toggleTimetable}
               youtubeCache={youtubeCache}
               onYoutubeResult={setYoutubeResult}
               getFriendOverlaps={getFriendOverlaps}
@@ -319,7 +336,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-tml-border mt-12 py-6 text-center text-xs text-white/30">
-        Share-Format: <code className="text-white/50">?name=DeinName&tracks=id1,id2,…</code>
+        Share format: <code className="text-white/50">?name=YourName&tracks=id1,id2,…</code>
       </footer>
     </div>
   );

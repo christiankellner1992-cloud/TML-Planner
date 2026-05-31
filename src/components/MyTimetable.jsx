@@ -1,31 +1,31 @@
 import ActCard from './ActCard';
+import { getDayLabel } from '../constants/days';
 
 const DAY_ORDER = ['friday', 'saturday', 'sunday'];
 
 export default function MyTimetable({
-  lineupData,
-  timetable,
+  myTimetable,
   actById,
-  isInTimetable,
+  isInMyTimetable,
   onToggle,
   onSelect,
-  focusedActId,
+  selectedActForRecommendations,
   youtubeCache,
   onYoutubeResult,
   getFriendOverlaps = () => [],
 }) {
   const total =
-    timetable.friday.length + timetable.saturday.length + timetable.sunday.length;
+    myTimetable.friday.length + myTimetable.saturday.length + myTimetable.sunday.length;
 
   return (
     <div className="space-y-8">
       <p className="text-white/60 text-sm">
-        {total} Act(s) in deinem Timetable · Klicke eine Kachel für KI-Empfehlungen
+        {total} act(s) in your timetable · Click a card for preview & AI recommendations
       </p>
 
       {DAY_ORDER.map((dayId) => {
-        const ids = timetable[dayId] || [];
-        const dayLabel = lineupData.days[dayId]?.label;
+        const ids = myTimetable[dayId] || [];
+        const dayLabel = getDayLabel(dayId);
         if (!ids.length) return null;
 
         return (
@@ -41,10 +41,10 @@ export default function MyTimetable({
                   <ActCard
                     key={id}
                     act={act}
-                    inTimetable={isInTimetable(id)}
+                    inTimetable={isInMyTimetable(id)}
                     onToggle={() => onToggle(id)}
                     onSelect={onSelect}
-                    isFocused={id === focusedActId}
+                    isPreviewSelected={id === selectedActForRecommendations}
                     youtubeCache={youtubeCache}
                     onYoutubeResult={onYoutubeResult}
                     friendOverlap={getFriendOverlaps(id)}
@@ -58,9 +58,9 @@ export default function MyTimetable({
 
       {total === 0 && (
         <div className="text-center py-16 text-white/40">
-          <p className="text-lg">Dein Timetable ist noch leer</p>
+          <p className="text-lg">Your timetable is empty</p>
           <p className="text-sm mt-2">
-            Gehe zum Line-Up und klicke auf + bei deinen Lieblings-DJs
+            Go to the lineup and tap Add on your favorite DJs
           </p>
         </div>
       )}

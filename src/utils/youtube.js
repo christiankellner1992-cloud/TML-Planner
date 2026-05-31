@@ -45,14 +45,14 @@ export async function searchYoutubeForArtist(artistName) {
       }
     } catch (err) {
       const msg = err.response?.data?.error?.message || err.message;
-      console.warn('YouTube API Fehler, Fallback:', msg);
+      console.warn('YouTube API error, using fallback:', msg);
     }
   }
 
   return {
     type: 'search',
     url: buildFallbackSearchUrl(artistName),
-    title: `YouTube-Suche: ${artistName}`,
+    title: `YouTube search: ${artistName}`,
   };
 }
 

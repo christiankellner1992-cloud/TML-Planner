@@ -8,7 +8,7 @@ const LEGACY_PLAN_PARAM = 'plan';
  */
 export function buildShareUrl(userName, trackIds) {
   const url = new URL(window.location.origin + window.location.pathname);
-  url.searchParams.set('name', userName.trim() || 'Gast');
+  url.searchParams.set('name', userName.trim() || 'Guest');
   url.searchParams.set('tracks', trackIds.join(','));
   return url.toString();
 }

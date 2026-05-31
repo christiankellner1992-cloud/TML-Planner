@@ -28,10 +28,10 @@ export default function YouTubeEmbed({ act, cached, onResult, autoLoad = true })
       setResult(data);
       onResult?.(act.id, data);
       if (data.type === 'search' && !import.meta.env.VITE_YOUTUBE_API_KEY) {
-        setError('Kein API-Key – öffne die Suchergebnisse auf YouTube.');
+        setError('No API key — open search results on YouTube.');
       }
     } catch {
-      setError('Video konnte nicht geladen werden.');
+      setError('Could not load video.');
     } finally {
       setLoading(false);
     }
@@ -42,7 +42,7 @@ export default function YouTubeEmbed({ act, cached, onResult, autoLoad = true })
       {loading && (
         <p className="flex items-center gap-2 text-xs text-white/50">
           <Loader2 className="w-3.5 h-3.5 animate-spin" />
-          Suche: „{act.name} Tomorrowland live set“…
+          Searching: &quot;{act.name} Tomorrowland live set&quot;…
         </p>
       )}
 
@@ -81,7 +81,7 @@ export default function YouTubeEmbed({ act, cached, onResult, autoLoad = true })
           className="inline-flex items-center gap-1.5 text-xs text-red-400 hover:underline"
         >
           <ExternalLink className="w-3.5 h-3.5" />
-          Neuestes Set auf YouTube suchen
+          Search latest set on YouTube
         </a>
       )}
 
@@ -92,7 +92,7 @@ export default function YouTubeEmbed({ act, cached, onResult, autoLoad = true })
           className="flex items-center gap-1.5 text-xs text-tml-gold hover:underline"
         >
           <Play className="w-3.5 h-3.5" />
-          Live-Set laden
+          Load live set
         </button>
       )}
     </div>

@@ -1,8 +1,8 @@
 import { getGenres } from './genre';
 
 /**
- * Intelligente Set-Empfehlungen für denselben Festival-Tag.
- * Gewichtet Genre-Profil, Stage-Nähe und Stil-Keywords.
+ * Smart set recommendations for the same festival day.
+ * Weights genre profile, stage proximity, and style keywords.
  */
 export function getRecommendations(allActs, selectedIds, limit = 8) {
   if (!selectedIds.length) return [];
@@ -34,25 +34,25 @@ export function getRecommendations(allActs, selectedIds, limit = 8) {
       if (genreMatch > 0) {
         score += genreMatch * 2;
         const matched = actGenres.find((g) => genreWeights[g]) || actGenres[0];
-        reasons.push(`Passt zu ${matched}`);
+        reasons.push(`Matches ${matched}`);
       }
 
       if (stageSet.has(act.stage)) {
         score += 1.5;
-        reasons.push(`Gleiche Stage: ${act.stage}`);
+        reasons.push(`Same stage: ${act.stage}`);
       }
 
       if (topGenre && actGenres.includes(topGenre)) {
         score += 0.5;
-        if (!reasons.some((r) => r.startsWith('Passt'))) {
-          reasons.push(`Top-Genre heute: ${topGenre}`);
+        if (!reasons.some((r) => r.startsWith('Matches'))) {
+          reasons.push(`Top genre today: ${topGenre}`);
         }
       }
 
       const styleBonus = getStyleAffinity(selected, act);
       if (styleBonus > 0) {
         score += styleBonus;
-        reasons.push('Ähnlicher DJ-Stil');
+        reasons.push('Similar DJ style');
       }
 
       return { act, score, reasons: reasons.slice(0, 2) };

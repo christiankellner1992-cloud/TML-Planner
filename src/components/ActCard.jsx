@@ -1,13 +1,14 @@
+import { memo } from 'react';
 import { Check, MapPin, Music2, Plus } from 'lucide-react';
 import { getGenres } from '../utils/genre';
 import YouTubeEmbed from './YouTubeEmbed';
 
-export default function ActCard({
+function ActCard({
   act,
-  inTimetable,
+  inTimetable = false,
   onToggle,
   onSelect,
-  isFocused = false,
+  isPreviewSelected = false,
   youtubeCache,
   onYoutubeResult,
   friendOverlap = [],
@@ -33,14 +34,12 @@ export default function ActCard({
             }
           : undefined
       }
-      className={`rounded-xl border transition-all ${
-        isFocused
-          ? 'border-tml-purple ring-2 ring-tml-purple/50 shadow-lg shadow-tml-purple/20'
+      className={`rounded-xl border transition-colors ${
+        isPreviewSelected
+          ? 'border-tml-purple ring-2 ring-tml-purple/40 shadow-md shadow-tml-purple/15 bg-tml-card'
           : hasFriendOverlap
-            ? 'border-2 border-orange-400/80 bg-gradient-to-br from-orange-500/10 to-tml-card shadow-lg shadow-orange-500/25 ring-1 ring-orange-400/30'
-            : inTimetable
-              ? 'border-tml-gold/60 bg-tml-gold/10 shadow-lg shadow-tml-gold/5'
-              : 'border-tml-border bg-tml-card hover:border-tml-purple/50'
+            ? 'border-2 border-orange-400/70 bg-gradient-to-br from-orange-500/10 to-tml-card shadow-md shadow-orange-500/15'
+            : 'border-tml-border bg-tml-card hover:border-tml-purple/40'
       } ${isSelectable ? 'cursor-pointer' : ''} ${compact ? 'p-3' : 'p-4'}`}
     >
       <div className="flex items-start justify-between gap-2">
@@ -68,25 +67,32 @@ export default function ActCard({
           </div>
           {hasFriendOverlap && (
             <p className="mt-2 text-[11px] font-medium text-orange-300 leading-snug">
-              🔥 Auch bei: {friendOverlap.join(', ')}
+              🔥 Also picked by: {friendOverlap.join(', ')}
             </p>
           )}
         </div>
-        <button
-          type="button"
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggle(act.id);
-          }}
-          title={inTimetable ? 'Aus Timetable entfernen' : 'Zum Timetable hinzufügen'}
-          className={`shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
-            inTimetable
-              ? 'bg-tml-gold text-tml-dark'
-              : 'bg-white/10 hover:bg-tml-purple text-white'
-          }`}
-        >
-          {inTimetable ? <Check className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
-        </button>
+
+        <div className="flex flex-col items-center gap-0.5 shrink-0">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggle?.(act.id);
+            }}
+            aria-label={inTimetable ? 'Remove from timetable' : 'Add to timetable'}
+            title={inTimetable ? 'Remove' : 'Add'}
+            className={`w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
+              inTimetable
+                ? 'bg-tml-gold text-tml-dark shadow-sm shadow-tml-gold/30'
+                : 'bg-white/10 hover:bg-white/20 text-white border border-white/10'
+            }`}
+          >
+            {inTimetable ? <Check className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
+          </button>
+          <span className="text-[9px] text-white/40 leading-none">
+            {inTimetable ? '✓' : 'Add'}
+          </span>
+        </div>
       </div>
 
       {inTimetable && showYoutube && (
@@ -101,3 +107,5 @@ export default function ActCard({
     </article>
   );
 }
+
+export default memo(ActCard);
