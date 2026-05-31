@@ -1,12 +1,14 @@
 /** Normalisiert genre-Feld (String legacy oder Array) zu string[] */
 export function getGenres(act) {
   if (!act?.genre) return [];
-  return Array.isArray(act.genre) ? act.genre : [act.genre];
+  const raw = Array.isArray(act.genre) ? act.genre : [act.genre];
+  return raw.map((g) => String(g).trim()).filter(Boolean);
 }
 
 export function actMatchesGenre(act, genreFilter) {
-  if (!genreFilter) return true;
-  return getGenres(act).includes(genreFilter);
+  if (!genreFilter?.trim()) return true;
+  const filter = genreFilter.trim();
+  return getGenres(act).some((g) => g === filter);
 }
 
 export function actMatchesGenreSearch(act, query) {

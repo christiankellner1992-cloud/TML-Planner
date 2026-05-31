@@ -58,6 +58,7 @@ export default function App() {
     activeFriends,
     filteredActs,
     isGlobalSearch,
+    isMultiDayResults,
     actById,
     toggleTimetable,
     isInMyTimetable,
@@ -235,10 +236,21 @@ export default function App() {
               <section className="min-w-0">
                 <div className="text-sm text-white/50 mb-4 space-y-2">
                   <p className="font-medium text-white/70">
-                    {isGlobalSearch ? (
+                    {isMultiDayResults ? (
                       <>
                         {filteredActs.length} results across all 3 days
-                        {stageFilter || genreFilter ? ' (filtered)' : ''}
+                        {genreFilter && (
+                          <>
+                            {' '}
+                            · genre: <span className="text-white/60">{genreFilter}</span>
+                          </>
+                        )}
+                        {stageFilter && !genreFilter && (
+                          <>
+                            {' '}
+                            · stage: <span className="text-white/60">{stageFilter}</span>
+                          </>
+                        )}
                         {isSearchPending ? ' …' : ''}
                       </>
                     ) : (
@@ -257,7 +269,7 @@ export default function App() {
                   </ul>
                 </div>
 
-                {isGlobalSearch ? (
+                {isMultiDayResults ? (
                   <div className="space-y-8">
                     {DAY_TABS.map((tab) => {
                       const dayResults = filteredActs.filter((a) => a.day === tab.id);
@@ -309,7 +321,7 @@ export default function App() {
 
                 {filteredActs.length === 0 && !isSearchPending && (
                   <p className="text-center py-12 text-white/40">
-                    {isGlobalSearch
+                    {isMultiDayResults
                       ? 'No acts found across all 3 days.'
                       : 'No acts match these filters.'}
                   </p>

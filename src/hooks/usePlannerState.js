@@ -131,9 +131,12 @@ export function usePlannerState() {
 
   const dayActs = lineupData.days[activeDay]?.acts || [];
   const isGlobalSearch = Boolean(deferredSearch.trim());
+  /** Genre/stage filters apply across all 3 days (not only the active day tab). */
+  const isMultiDayResults =
+    isGlobalSearch || Boolean(stageFilter) || Boolean(genreFilter);
 
   const filteredActs = useMemo(() => {
-    let acts = isGlobalSearch ? allActs : dayActs;
+    let acts = isMultiDayResults ? allActs : dayActs;
     if (stageFilter) acts = acts.filter((a) => a.stage === stageFilter);
     if (genreFilter) acts = acts.filter((a) => actMatchesGenre(a, genreFilter));
     if (isGlobalSearch) {
@@ -148,7 +151,15 @@ export function usePlannerState() {
       );
     }
     return acts;
-  }, [dayActs, allActs, isGlobalSearch, stageFilter, genreFilter, deferredSearch]);
+  }, [
+    dayActs,
+    allActs,
+    isMultiDayResults,
+    isGlobalSearch,
+    stageFilter,
+    genreFilter,
+    deferredSearch,
+  ]);
 
   const myTimetableIdSet = useMemo(() => {
     const set = new Set();
@@ -291,6 +302,7 @@ export function usePlannerState() {
     activeFriends,
     filteredActs,
     isGlobalSearch,
+    isMultiDayResults,
     dayActs,
     allActs,
     actById,
