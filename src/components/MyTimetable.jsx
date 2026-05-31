@@ -8,6 +8,8 @@ export default function MyTimetable({
   actById,
   isInTimetable,
   onToggle,
+  onSelect,
+  focusedActId,
   youtubeCache,
   onYoutubeResult,
   getFriendOverlaps = () => [],
@@ -18,7 +20,7 @@ export default function MyTimetable({
   return (
     <div className="space-y-8">
       <p className="text-white/60 text-sm">
-        {total} Act(s) in deinem persönlichen Timetable (alle 3 Tage)
+        {total} Act(s) in deinem Timetable · Klicke eine Kachel für KI-Empfehlungen
       </p>
 
       {DAY_ORDER.map((dayId) => {
@@ -31,7 +33,7 @@ export default function MyTimetable({
             <h2 className="text-lg font-semibold text-tml-gold mb-4 border-b border-tml-border pb-2">
               {dayLabel}
             </h2>
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
               {ids.map((id) => {
                 const act = actById.get(id);
                 if (!act) return null;
@@ -41,6 +43,8 @@ export default function MyTimetable({
                     act={act}
                     inTimetable={isInTimetable(id)}
                     onToggle={() => onToggle(id)}
+                    onSelect={onSelect}
+                    isFocused={id === focusedActId}
                     youtubeCache={youtubeCache}
                     onYoutubeResult={onYoutubeResult}
                     friendOverlap={getFriendOverlaps(id)}

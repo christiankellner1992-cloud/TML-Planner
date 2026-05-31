@@ -6,6 +6,7 @@ import {
   parseShareParams,
   readShareFromUrl,
 } from '../utils/share';
+import { actMatchesGenre, actMatchesGenreSearch } from '../utils/genre';
 import { emptyTimetable, flattenTimetable } from '../utils/timetable';
 
 const STORAGE_KEY = 'tml-planner-w2';
@@ -49,6 +50,7 @@ export function usePlannerState() {
   const [genreFilter, setGenreFilter] = useState('');
   const [search, setSearch] = useState('');
   const [view, setView] = useState('lineup');
+  const [focusedActId, setFocusedActId] = useState(null);
   const [shareNotice, setShareNotice] = useState('');
   const [friendNotice, setFriendNotice] = useState('');
   const [friendLinkInput, setFriendLinkInput] = useState('');
@@ -126,14 +128,14 @@ export function usePlannerState() {
   const filteredActs = useMemo(() => {
     let acts = isGlobalSearch ? allActs : dayActs;
     if (stageFilter) acts = acts.filter((a) => a.stage === stageFilter);
-    if (genreFilter) acts = acts.filter((a) => a.genre === genreFilter);
+    if (genreFilter) acts = acts.filter((a) => actMatchesGenre(a, genreFilter));
     if (isGlobalSearch) {
       const q = search.toLowerCase().trim();
       acts = acts.filter(
         (a) =>
           a.name.toLowerCase().includes(q) ||
           a.stage.toLowerCase().includes(q) ||
-          a.genre.toLowerCase().includes(q) ||
+          actMatchesGenreSearch(a, q) ||
           a.dayLabel.toLowerCase().includes(q)
       );
     }
@@ -236,6 +238,19 @@ export function usePlannerState() {
     [persist]
   );
 
+  const focusedAct = focusedActId ? actById.get(focusedActId) ?? null : null;
+
+  const recommendationActs = useMemo(() => {
+    if (focusedAct?.day) {
+      return lineupData.days[focusedAct.day]?.acts || [];
+    }
+    return lineupData.days[activeDay]?.acts || [];
+  }, [focusedAct, activeDay, lineupData.days]);
+
+  const focusAct = useCallback((actId) => {
+    setFocusedActId(actId);
+  }, []);
+
   return {
     lineupData,
     activeDay,
@@ -271,5 +286,9 @@ export function usePlannerState() {
     toggleFriendActive,
     removeFriend,
     getFriendOverlaps,
+    focusedActId,
+    focusedAct,
+    focusAct,
+    recommendationActs,
   };
 }

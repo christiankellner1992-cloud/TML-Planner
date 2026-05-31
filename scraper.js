@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
-const { assignGenre } = require('./genreMap');
+const { assignGenres } = require('./genreAssigner');
 
 const DAYS = [
   {
@@ -154,7 +154,7 @@ async function scrapeDay(browser, dayConfig) {
 
   const acts = rawActs.map((act) => {
     const id = makeArtistId(dayConfig.id, act.stage, act.name);
-    const genre = assignGenre(act.name, act.stage);
+    const genre = assignGenres(act.name, act.stage);
     return {
       id,
       name: act.name,
@@ -204,7 +204,7 @@ async function main() {
       allActs.push(...acts);
       acts.forEach((a) => {
         stages.add(a.stage);
-        genres.add(a.genre);
+        for (const g of a.genre) genres.add(g);
       });
     }
   } finally {

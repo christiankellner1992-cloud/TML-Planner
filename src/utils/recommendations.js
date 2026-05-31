@@ -1,3 +1,5 @@
+import { getGenres } from './genre';
+
 /**
  * Intelligente Set-Empfehlungen für denselben Festival-Tag.
  * Gewichtet Genre-Profil, Stage-Nähe und Stil-Keywords.
@@ -11,7 +13,9 @@ export function getRecommendations(allActs, selectedIds, limit = 8) {
   const selectedSet = new Set(selectedIds);
 
   for (const act of selected) {
-    genreWeights[act.genre] = (genreWeights[act.genre] || 0) + 1;
+    for (const genre of getGenres(act)) {
+      genreWeights[genre] = (genreWeights[genre] || 0) + 1;
+    }
   }
 
   const topGenre = Object.entries(genreWeights).sort((a, b) => b[1] - a[1])[0]?.[0];
@@ -21,11 +25,16 @@ export function getRecommendations(allActs, selectedIds, limit = 8) {
     .map((act) => {
       const reasons = [];
       let score = 0;
+      const actGenres = getGenres(act);
 
-      const genreMatch = genreWeights[act.genre] || 0;
+      let genreMatch = 0;
+      for (const g of actGenres) {
+        genreMatch = Math.max(genreMatch, genreWeights[g] || 0);
+      }
       if (genreMatch > 0) {
         score += genreMatch * 2;
-        reasons.push(`Passt zu deinem ${act.genre}-Profil`);
+        const matched = actGenres.find((g) => genreWeights[g]) || actGenres[0];
+        reasons.push(`Passt zu ${matched}`);
       }
 
       if (stageSet.has(act.stage)) {
@@ -33,9 +42,9 @@ export function getRecommendations(allActs, selectedIds, limit = 8) {
         reasons.push(`Gleiche Stage: ${act.stage}`);
       }
 
-      if (act.genre === topGenre && topGenre) {
+      if (topGenre && actGenres.includes(topGenre)) {
         score += 0.5;
-        if (!reasons.some((r) => r.includes('Profil'))) {
+        if (!reasons.some((r) => r.startsWith('Passt'))) {
           reasons.push(`Top-Genre heute: ${topGenre}`);
         }
       }

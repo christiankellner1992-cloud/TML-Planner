@@ -12,9 +12,21 @@ const DAY_TABS = [
   { id: 'sunday', label: 'Sonntag, 26. Juli' },
 ];
 
-function ActCardWithOverlap({ act, getFriendOverlaps, ...props }) {
+function ActCardWithOverlap({
+  act,
+  getFriendOverlaps,
+  focusedActId,
+  focusAct,
+  ...props
+}) {
   return (
-    <ActCard act={act} friendOverlap={getFriendOverlaps(act.id)} {...props} />
+    <ActCard
+      act={act}
+      friendOverlap={getFriendOverlaps(act.id)}
+      onSelect={focusAct}
+      isFocused={act.id === focusedActId}
+      {...props}
+    />
   );
 }
 
@@ -52,9 +64,12 @@ export default function App() {
     toggleFriendActive,
     removeFriend,
     getFriendOverlaps,
+    focusedActId,
+    focusedAct,
+    focusAct,
+    recommendationActs,
   } = usePlannerState();
 
-  const selectedIds = timetable[activeDay] || [];
   const totalSelected =
     timetable.friday.length + timetable.saturday.length + timetable.sunday.length;
 
@@ -64,7 +79,23 @@ export default function App() {
     youtubeCache,
     onYoutubeResult: setYoutubeResult,
     getFriendOverlaps,
+    focusedActId,
+    focusAct,
   };
+
+  const recommendationsPanel = (
+    <Recommendations
+      allActs={recommendationActs}
+      focusedAct={focusedAct}
+      focusAct={focusAct}
+      focusedActId={focusedActId}
+      isInTimetable={isInTimetable}
+      onToggle={toggleTimetable}
+      youtubeCache={youtubeCache}
+      onYoutubeResult={setYoutubeResult}
+      getFriendOverlaps={getFriendOverlaps}
+    />
+  );
 
   const resetFilters = () => {
     setStageFilter('');
@@ -210,6 +241,10 @@ export default function App() {
                       · Orange = Überschneidung mit Freunden
                     </span>
                   )}
+                  <span className="text-tml-purple/80">
+                    {' '}
+                    · Kachel anklicken = KI-Empfehlungen
+                  </span>
                 </p>
 
                 {isGlobalSearch ? (
@@ -255,34 +290,31 @@ export default function App() {
                 )}
               </section>
 
-              <Recommendations
-                allActs={lineupData.days[activeDay].acts}
-                selectedIds={selectedIds}
-                isInTimetable={isInTimetable}
-                onToggle={toggleTimetable}
-                youtubeCache={youtubeCache}
-                onYoutubeResult={setYoutubeResult}
-                getFriendOverlaps={getFriendOverlaps}
-              />
+              {recommendationsPanel}
             </div>
           </>
         ) : (
-          <MyTimetable
-            lineupData={lineupData}
-            timetable={timetable}
-            actById={actById}
-            isInTimetable={() => true}
-            onToggle={(id) => {
-              const act = actById.get(id);
-              if (act) {
-                setActiveDay(act.day);
-                toggleTimetable(id);
-              }
-            }}
-            youtubeCache={youtubeCache}
-            onYoutubeResult={setYoutubeResult}
-            getFriendOverlaps={getFriendOverlaps}
-          />
+          <div className="grid lg:grid-cols-[1fr_320px] gap-6">
+            <MyTimetable
+              lineupData={lineupData}
+              timetable={timetable}
+              actById={actById}
+              isInTimetable={() => true}
+              onSelect={focusAct}
+              focusedActId={focusedActId}
+              onToggle={(id) => {
+                const act = actById.get(id);
+                if (act) {
+                  setActiveDay(act.day);
+                  toggleTimetable(id);
+                }
+              }}
+              youtubeCache={youtubeCache}
+              onYoutubeResult={setYoutubeResult}
+              getFriendOverlaps={getFriendOverlaps}
+            />
+            {recommendationsPanel}
+          </div>
         )}
       </main>
 
